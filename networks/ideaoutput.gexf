@@ -1,0 +1,621 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2023-10-26">
+    <creator>NetworkX 3.2</creator>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" name="">
+    <attributes mode="static" class="node">
+      <attribute id="0" title="weight" type="long" />
+    </attributes>
+    <nodes>
+      <node id="&quot;how to have hard conversations with people who believe differently&quot;" label="idea">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </node>
+      <node id="Community" label="tag" />
+      <node id="&quot;respectful community conversation&quot;" label="idea">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </node>
+      <node id="&quot;Mutual aid&quot;" label="idea">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </node>
+      <node id="&quot;Widen the community&quot;" label="idea">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </node>
+      <node id="&quot;connecting with others / building and fostering community&quot;" label="idea">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </node>
+      <node id="Relationship" label="tag" />
+      <node id="&quot;I am passionate about the importance of an involved community and it's importance to everything else (climate change, etc.)&quot;" label="idea">
+        <attvalues>
+          <attvalue for="0" value="3" />
+        </attvalues>
+      </node>
+      <node id="Enviorment" label="tag" />
+      <node id="&quot;Reaching out to other congregations, churches, faith communities&quot;" label="idea">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </node>
+      <node id="Interfaith" label="tag" />
+      <node id="&quot;hospitality&quot;" label="idea">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </node>
+      <node id="Safety" label="tag" />
+      <node id="&quot;Education about death options, and green burials&quot;" label="idea">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </node>
+      <node id="Death" label="tag" />
+      <node id="Senior Citizen" label="tag" />
+      <node id="&quot;Right to die&quot;" label="idea">
+        <attvalues>
+          <attvalue for="0" value="2" />
+        </attvalues>
+      </node>
+      <node id="&quot;Better support for our teachers and their support staff&quot;" label="idea">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </node>
+      <node id="Education" label="tag" />
+      <node id="&quot;More emphasis as a congregation on parents and teachers&quot;" label="idea">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </node>
+      <node id="&quot;Support Public Schools&quot;" label="idea">
+        <attvalues>
+          <attvalue for="0" value="2" />
+        </attvalues>
+      </node>
+      <node id="&quot;Bring OWL outside of UU&quot;" label="idea">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </node>
+      <node id="&quot;Education&quot;" label="idea">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </node>
+      <node id="&quot;responsibility for environmental changes&quot;" label="idea">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </node>
+      <node id="&quot;climate change impacts&quot;" label="idea">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </node>
+      <node id="&quot;Enviormental focused projects&quot;" label="idea">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </node>
+      <node id="&quot;Food insecurity &quot;" label="idea">
+        <attvalues>
+          <attvalue for="0" value="3" />
+        </attvalues>
+      </node>
+      <node id="Food" label="tag" />
+      <node id="&quot;hunger&quot;" label="idea">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </node>
+      <node id="&quot;Food security&quot;" label="idea">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </node>
+      <node id="&quot;Hunger, poverty&quot;" label="idea">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </node>
+      <node id="&quot;Hunger&quot;" label="idea">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </node>
+      <node id="&quot;health care access, especially low cost transportation&quot;" label="idea">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </node>
+      <node id="Health" label="tag" />
+      <node id="&quot;Acccess to Healthcare&quot;" label="idea">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </node>
+      <node id="&quot;Abortion Access&quot;" label="idea">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </node>
+      <node id="&quot;physical and mental health&quot;" label="idea">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </node>
+      <node id="Mental Health" label="tag" />
+      <node id="&quot;access to health care and reproductive rights&quot;" label="idea">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </node>
+      <node id="Women" label="tag" />
+      <node id="&quot;Affordable housing&quot;" label="idea">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </node>
+      <node id="Housing" label="tag" />
+      <node id="&quot;affordable housing&quot;" label="idea">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </node>
+      <node id="&quot;Housing shortage for low income workers&quot;" label="idea">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </node>
+      <node id="&quot;Affordable housing is a long-term issue in our community.&quot;" label="idea">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </node>
+      <node id="&quot;Housing Stability&quot;" label="idea">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </node>
+      <node id="&quot;Housing&quot;" label="idea">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </node>
+      <node id="&quot;partnership with other congregations, international? urban? tribal? diverse listening&quot;" label="idea">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </node>
+      <node id="&quot;Collaborating with other denominations&quot;" label="idea">
+        <attvalues>
+          <attvalue for="0" value="2" />
+        </attvalues>
+      </node>
+      <node id="&quot;refugee partnership&quot;" label="idea">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </node>
+      <node id="International Community" label="tag" />
+      <node id="&quot;Do things that are welcoming to the international community&quot;" label="idea">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </node>
+      <node id="&quot;Refuge Resettlement&quot;" label="idea">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </node>
+      <node id="&quot;Connect with International Students&quot;" label="idea">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </node>
+      <node id="&quot;Shelter for refugees&quot;" label="idea">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </node>
+      <node id="&quot;LGBTQ+ families&quot;" label="idea">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </node>
+      <node id="LGBTQ+" label="tag" />
+      <node id="&quot;Literacy&quot;" label="idea">
+        <attvalues>
+          <attvalue for="0" value="2" />
+        </attvalues>
+      </node>
+      <node id="Literacy" label="tag" />
+      <node id="&quot;I am aware of a book donation project that donates books to prisons. It wasn't classified as a charity for tax purposes. Is led by an individual. Is there anything we can do to assist with it?&quot;" label="idea">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </node>
+      <node id="&quot;Banned Book Library&quot;" label="idea">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </node>
+      <node id="&quot;Mental health&quot;" label="idea">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </node>
+      <node id="&quot;Mental health stigma&quot;" label="idea">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </node>
+      <node id="&quot;Mental Health Support in Community&quot;" label="idea">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </node>
+      <node id="&quot;There is an excellent NAMI program called ending the silence for bringing mental health education and discussion into middle school and high school&quot;" label="idea">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </node>
+      <node id="&quot;coffee shop&quot;" label="idea">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </node>
+      <node id="MISC" label="tag" />
+      <node id="&quot;pause for peace, lean in for love, hadns for hope, journey together for love&quot;" label="idea">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </node>
+      <node id="&quot;I feel drawn to serve natives of the area who are lower income or lower education who many not believe in in traditional christianity&quot;" label="idea">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </node>
+      <node id="&quot;Education for our congregation from communities that aren't here&quot;" label="idea">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </node>
+      <node id="&quot;Social Justice&quot;" label="idea">
+        <attvalues>
+          <attvalue for="0" value="2" />
+        </attvalues>
+      </node>
+      <node id="&quot;religious or non-religious freedom. separation of church and government.&quot;" label="idea">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </node>
+      <node id="Politics" label="tag" />
+      <node id="&quot;Voter rights&quot;" label="idea">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </node>
+      <node id="&quot;Develop more civic discourse between people with different points of view&quot;" label="idea">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </node>
+      <node id="&quot;Theme-Constructive Disruption&quot;" label="idea">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </node>
+      <node id="&quot;Saving Democratic Government&quot;" label="idea">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </node>
+      <node id="&quot;Democracy Voting Rights&quot;" label="idea">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </node>
+      <node id="&quot;Work with the prisons, reaching out to inmates&quot;" label="idea">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </node>
+      <node id="Prison" label="tag" />
+      <node id="&quot;racial cultural disparities&quot;" label="idea">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </node>
+      <node id="Racial Issues" label="tag" />
+      <node id="&quot;Anti-racism work within and beyond our community&quot;" label="idea">
+        <attvalues>
+          <attvalue for="0" value="2" />
+        </attvalues>
+      </node>
+      <node id="&quot;Work in Communitites of Color&quot;" label="idea">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </node>
+      <node id="&quot;I appreciate outreach to the disenfranchised and potentially lonely populations&quot;" label="idea">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </node>
+      <node id="&quot;Something like Bravers Angels&quot;" label="idea">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </node>
+      <node id="&quot;A UUC Anti-Lonliness Initative &quot;A.L.I&quot;&quot;" label="idea">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </node>
+      <node id="&quot;safety&quot;" label="idea">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </node>
+      <node id="&quot;X-Mas Store&quot;" label="idea">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </node>
+      <node id="Seasonal" label="tag" />
+      <node id="&quot;senior visitation&quot;" label="idea">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </node>
+      <node id="&quot;services to elderly&quot;" label="idea">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </node>
+      <node id="&quot;Needs for senior citizens - transportation among other help.&quot;" label="idea">
+        <attvalues>
+          <attvalue for="0" value="2" />
+        </attvalues>
+      </node>
+      <node id="&quot;Elder Care&quot;" label="idea">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </node>
+      <node id="&quot;needs of elderly - food support, Meals on Wheels&quot;" label="idea">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </node>
+      <node id="&quot;Continue to focus on visability in the community - ie. so many misconceptions about UU&quot;" label="idea">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </node>
+      <node id="UUC Expansion" label="tag" />
+      <node id="&quot;To expand by example We are a religion for these times and our vision is to be a beacon of liberal religion in the NRV&quot;" label="idea">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </node>
+      <node id="&quot;Causes like Womens resource Center&quot;" label="idea">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </node>
+      <node id="&quot;Women's Rights&quot;" label="idea">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </node>
+      <node id="&quot;Young adult ministry / campus ministry&quot;" label="idea">
+        <attvalues>
+          <attvalue for="0" value="2" />
+        </attvalues>
+      </node>
+      <node id="Youth/Young Adults" label="tag" />
+      <node id="&quot;campus ministry&quot;" label="idea">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </node>
+      <node id="&quot;Creating a space that welcomes young adults&quot;" label="idea">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </node>
+      <node id="&quot;connecting with VT students &amp; the young adult population&quot;" label="idea">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </node>
+      <node id="&quot;UUYAs &lt;3 but don't over exert them&quot;" label="idea">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </node>
+      <node id="&quot;Support High School interships with CI&quot;" label="idea">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </node>
+      <node id="&quot;Connecting college students to community needs&quot;" label="idea">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </node>
+      <node id="&quot;Campus Presence, Money if needed&quot;" label="idea">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </node>
+      <node id="&quot;Youth Leadership&quot;" label="idea">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </node>
+      <node id="&quot;Youth Leadership in UUC&quot;" label="idea">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </node>
+      <node id="&quot;children programs, day care, after school care, parenting skills, health needs of children and mothers&quot;" label="idea">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </node>
+      <node id="&quot;safe spaces for kids to pursue arts and music&quot;" label="idea">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </node>
+      <node id="Arts" label="tag" />
+      <node id="&quot;Tutoring / support for low achieving students&quot;" label="idea">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </node>
+      <node id="&quot;outreach to students at VT, provide home-cooked meal?&quot;" label="idea">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </node>
+      <node id="&quot;VT Food pantry&quot;" label="idea">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </node>
+      <node id="&quot;safe spaces for LGBTQ and youth&quot;" label="idea">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge source="&quot;how to have hard conversations with people who believe differently&quot;" target="Community" id="0" />
+      <edge source="Community" target="&quot;respectful community conversation&quot;" id="1" />
+      <edge source="Community" target="&quot;Mutual aid&quot;" id="2" />
+      <edge source="Community" target="&quot;Widen the community&quot;" id="3" />
+      <edge source="Community" target="&quot;connecting with others / building and fostering community&quot;" id="4" />
+      <edge source="Community" target="&quot;I am passionate about the importance of an involved community and it's importance to everything else (climate change, etc.)&quot;" id="5" />
+      <edge source="Community" target="&quot;Reaching out to other congregations, churches, faith communities&quot;" id="6" />
+      <edge source="Community" target="&quot;hospitality&quot;" id="7" />
+      <edge source="&quot;connecting with others / building and fostering community&quot;" target="Relationship" id="8" />
+      <edge source="Relationship" target="&quot;hospitality&quot;" id="9" />
+      <edge source="Relationship" target="&quot;I appreciate outreach to the disenfranchised and potentially lonely populations&quot;" id="10" />
+      <edge source="Relationship" target="&quot;Something like Bravers Angels&quot;" id="11" />
+      <edge source="Relationship" target="&quot;A UUC Anti-Lonliness Initative &quot;A.L.I&quot;&quot;" id="12" />
+      <edge source="&quot;I am passionate about the importance of an involved community and it's importance to everything else (climate change, etc.)&quot;" target="Enviorment" id="13" />
+      <edge source="Enviorment" target="&quot;responsibility for environmental changes&quot;" id="14" />
+      <edge source="Enviorment" target="&quot;climate change impacts&quot;" id="15" />
+      <edge source="Enviorment" target="&quot;Enviormental focused projects&quot;" id="16" />
+      <edge source="&quot;Reaching out to other congregations, churches, faith communities&quot;" target="Interfaith" id="17" />
+      <edge source="Interfaith" target="&quot;partnership with other congregations, international? urban? tribal? diverse listening&quot;" id="18" />
+      <edge source="Interfaith" target="&quot;Collaborating with other denominations&quot;" id="19" />
+      <edge source="&quot;hospitality&quot;" target="Safety" id="20" />
+      <edge source="Safety" target="&quot;safety&quot;" id="21" />
+      <edge source="Safety" target="&quot;safe spaces for kids to pursue arts and music&quot;" id="22" />
+      <edge source="Safety" target="&quot;safe spaces for LGBTQ and youth&quot;" id="23" />
+      <edge source="&quot;Education about death options, and green burials&quot;" target="Death" id="24" />
+      <edge source="&quot;Education about death options, and green burials&quot;" target="Senior Citizen" id="25" />
+      <edge source="Death" target="&quot;Right to die&quot;" id="26" />
+      <edge source="Senior Citizen" target="&quot;Right to die&quot;" id="27" />
+      <edge source="Senior Citizen" target="&quot;senior visitation&quot;" id="28" />
+      <edge source="Senior Citizen" target="&quot;services to elderly&quot;" id="29" />
+      <edge source="Senior Citizen" target="&quot;Needs for senior citizens - transportation among other help.&quot;" id="30" />
+      <edge source="Senior Citizen" target="&quot;Elder Care&quot;" id="31" />
+      <edge source="Senior Citizen" target="&quot;needs of elderly - food support, Meals on Wheels&quot;" id="32" />
+      <edge source="&quot;Better support for our teachers and their support staff&quot;" target="Education" id="33" />
+      <edge source="Education" target="&quot;More emphasis as a congregation on parents and teachers&quot;" id="34" />
+      <edge source="Education" target="&quot;Support Public Schools&quot;" id="35" />
+      <edge source="Education" target="&quot;Bring OWL outside of UU&quot;" id="36" />
+      <edge source="Education" target="&quot;Education&quot;" id="37" />
+      <edge source="Education" target="&quot;children programs, day care, after school care, parenting skills, health needs of children and mothers&quot;" id="38" />
+      <edge source="Education" target="&quot;Tutoring / support for low achieving students&quot;" id="39" />
+      <edge source="&quot;Food insecurity &quot;" target="Food" id="40" />
+      <edge source="Food" target="&quot;hunger&quot;" id="41" />
+      <edge source="Food" target="&quot;Food security&quot;" id="42" />
+      <edge source="Food" target="&quot;Hunger, poverty&quot;" id="43" />
+      <edge source="Food" target="&quot;Hunger&quot;" id="44" />
+      <edge source="Food" target="&quot;needs of elderly - food support, Meals on Wheels&quot;" id="45" />
+      <edge source="Food" target="&quot;outreach to students at VT, provide home-cooked meal?&quot;" id="46" />
+      <edge source="Food" target="&quot;VT Food pantry&quot;" id="47" />
+      <edge source="&quot;health care access, especially low cost transportation&quot;" target="Health" id="48" />
+      <edge source="Health" target="&quot;Acccess to Healthcare&quot;" id="49" />
+      <edge source="Health" target="&quot;Abortion Access&quot;" id="50" />
+      <edge source="Health" target="&quot;physical and mental health&quot;" id="51" />
+      <edge source="Health" target="&quot;access to health care and reproductive rights&quot;" id="52" />
+      <edge source="&quot;physical and mental health&quot;" target="Mental Health" id="53" />
+      <edge source="Mental Health" target="&quot;Mental health&quot;" id="54" />
+      <edge source="Mental Health" target="&quot;Mental health stigma&quot;" id="55" />
+      <edge source="Mental Health" target="&quot;Mental Health Support in Community&quot;" id="56" />
+      <edge source="Mental Health" target="&quot;There is an excellent NAMI program called ending the silence for bringing mental health education and discussion into middle school and high school&quot;" id="57" />
+      <edge source="&quot;access to health care and reproductive rights&quot;" target="Women" id="58" />
+      <edge source="Women" target="&quot;Causes like Womens resource Center&quot;" id="59" />
+      <edge source="Women" target="&quot;Women's Rights&quot;" id="60" />
+      <edge source="&quot;Affordable housing&quot;" target="Housing" id="61" />
+      <edge source="Housing" target="&quot;affordable housing&quot;" id="62" />
+      <edge source="Housing" target="&quot;Housing shortage for low income workers&quot;" id="63" />
+      <edge source="Housing" target="&quot;Affordable housing is a long-term issue in our community.&quot;" id="64" />
+      <edge source="Housing" target="&quot;Housing Stability&quot;" id="65" />
+      <edge source="Housing" target="&quot;Housing&quot;" id="66" />
+      <edge source="&quot;refugee partnership&quot;" target="International Community" id="67" />
+      <edge source="International Community" target="&quot;Do things that are welcoming to the international community&quot;" id="68" />
+      <edge source="International Community" target="&quot;Refuge Resettlement&quot;" id="69" />
+      <edge source="International Community" target="&quot;Connect with International Students&quot;" id="70" />
+      <edge source="International Community" target="&quot;Shelter for refugees&quot;" id="71" />
+      <edge source="&quot;LGBTQ+ families&quot;" target="LGBTQ+" id="72" />
+      <edge source="LGBTQ+" target="&quot;safe spaces for LGBTQ and youth&quot;" id="73" />
+      <edge source="&quot;Literacy&quot;" target="Literacy" id="74" />
+      <edge source="Literacy" target="&quot;I am aware of a book donation project that donates books to prisons. It wasn't classified as a charity for tax purposes. Is led by an individual. Is there anything we can do to assist with it?&quot;" id="75" />
+      <edge source="Literacy" target="&quot;Banned Book Library&quot;" id="76" />
+      <edge source="&quot;coffee shop&quot;" target="MISC" id="77" />
+      <edge source="MISC" target="&quot;pause for peace, lean in for love, hadns for hope, journey together for love&quot;" id="78" />
+      <edge source="MISC" target="&quot;I feel drawn to serve natives of the area who are lower income or lower education who many not believe in in traditional christianity&quot;" id="79" />
+      <edge source="MISC" target="&quot;Education for our congregation from communities that aren't here&quot;" id="80" />
+      <edge source="MISC" target="&quot;Social Justice&quot;" id="81" />
+      <edge source="&quot;religious or non-religious freedom. separation of church and government.&quot;" target="Politics" id="82" />
+      <edge source="Politics" target="&quot;Voter rights&quot;" id="83" />
+      <edge source="Politics" target="&quot;Develop more civic discourse between people with different points of view&quot;" id="84" />
+      <edge source="Politics" target="&quot;Theme-Constructive Disruption&quot;" id="85" />
+      <edge source="Politics" target="&quot;Saving Democratic Government&quot;" id="86" />
+      <edge source="Politics" target="&quot;Democracy Voting Rights&quot;" id="87" />
+      <edge source="&quot;Work with the prisons, reaching out to inmates&quot;" target="Prison" id="88" />
+      <edge source="&quot;racial cultural disparities&quot;" target="Racial Issues" id="89" />
+      <edge source="Racial Issues" target="&quot;Anti-racism work within and beyond our community&quot;" id="90" />
+      <edge source="Racial Issues" target="&quot;Work in Communitites of Color&quot;" id="91" />
+      <edge source="&quot;X-Mas Store&quot;" target="Seasonal" id="92" />
+      <edge source="&quot;Continue to focus on visability in the community - ie. so many misconceptions about UU&quot;" target="UUC Expansion" id="93" />
+      <edge source="UUC Expansion" target="&quot;To expand by example We are a religion for these times and our vision is to be a beacon of liberal religion in the NRV&quot;" id="94" />
+      <edge source="&quot;Young adult ministry / campus ministry&quot;" target="Youth/Young Adults" id="95" />
+      <edge source="Youth/Young Adults" target="&quot;campus ministry&quot;" id="96" />
+      <edge source="Youth/Young Adults" target="&quot;Creating a space that welcomes young adults&quot;" id="97" />
+      <edge source="Youth/Young Adults" target="&quot;connecting with VT students &amp; the young adult population&quot;" id="98" />
+      <edge source="Youth/Young Adults" target="&quot;UUYAs &lt;3 but don't over exert them&quot;" id="99" />
+      <edge source="Youth/Young Adults" target="&quot;Support High School interships with CI&quot;" id="100" />
+      <edge source="Youth/Young Adults" target="&quot;Connecting college students to community needs&quot;" id="101" />
+      <edge source="Youth/Young Adults" target="&quot;Campus Presence, Money if needed&quot;" id="102" />
+      <edge source="Youth/Young Adults" target="&quot;Youth Leadership&quot;" id="103" />
+      <edge source="Youth/Young Adults" target="&quot;Youth Leadership in UUC&quot;" id="104" />
+      <edge source="Youth/Young Adults" target="&quot;children programs, day care, after school care, parenting skills, health needs of children and mothers&quot;" id="105" />
+      <edge source="Youth/Young Adults" target="&quot;safe spaces for kids to pursue arts and music&quot;" id="106" />
+      <edge source="Youth/Young Adults" target="&quot;Tutoring / support for low achieving students&quot;" id="107" />
+      <edge source="Youth/Young Adults" target="&quot;outreach to students at VT, provide home-cooked meal?&quot;" id="108" />
+      <edge source="Youth/Young Adults" target="&quot;VT Food pantry&quot;" id="109" />
+      <edge source="Youth/Young Adults" target="&quot;safe spaces for LGBTQ and youth&quot;" id="110" />
+      <edge source="&quot;safe spaces for kids to pursue arts and music&quot;" target="Arts" id="111" />
+    </edges>
+  </graph>
+</gexf>
