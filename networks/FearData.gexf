@@ -1,0 +1,421 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2023-10-29">
+    <creator>NetworkX 3.2</creator>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" name="">
+    <attributes mode="static" class="node">
+      <attribute id="0" title="weight" type="long" />
+    </attributes>
+    <nodes>
+      <node id="&quot;longevity&quot;" label="idea">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </node>
+      <node id="Longevity" label="tag" />
+      <node id="&quot;time&quot;" label="idea">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </node>
+      <node id="TimeMgmt" label="tag" />
+      <node id="&quot;full force action&quot;" label="idea">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </node>
+      <node id="Commitment" label="tag" />
+      <node id="&quot;cruel optimism - concentrate on small tasks but never changing the system&quot;" label="idea">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </node>
+      <node id="SysChange" label="tag" />
+      <node id="&quot;how to gauge success&quot;" label="idea">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </node>
+      <node id="MeasureSuccess" label="tag" />
+      <node id="&quot;project not designed from completion for community&quot;" label="idea">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </node>
+      <node id="ProjDesign" label="tag" />
+      <node id="&quot;safety (physical)&quot;" label="idea">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </node>
+      <node id="Safety" label="tag" />
+      <node id="&quot;otherness&quot;" label="idea">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </node>
+      <node id="Inclusivity" label="tag" />
+      <node id="&quot;boredom / lack of follow through&quot;" label="idea">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </node>
+      <node id="&quot;safety for all involved&quot;" label="idea">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </node>
+      <node id="&quot;time commitments&quot;" label="idea">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </node>
+      <node id="&quot;well-intentioned people getting it wrong&quot;" label="idea">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </node>
+      <node id="KnowledgeUnderstanding" label="tag" />
+      <node id="&quot;what are the needs? how do we find out?&quot;" label="idea">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </node>
+      <node id="&quot;coming to consensus about what needs to be done&quot;" label="idea">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </node>
+      <node id="Consensus" label="tag" />
+      <node id="&quot;unwillingness to transport people&quot;" label="idea">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </node>
+      <node id="ResourceTransport" label="tag" />
+      <node id="&quot;replicating or competing with services that already exist&quot;" label="idea">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </node>
+      <node id="Overextend" label="tag" />
+      <node id="&quot;alienating or offending&quot;" label="idea">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </node>
+      <node id="Alienation" label="tag" />
+      <node id="&quot;do people have time and resources to add more?&quot;" label="idea">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </node>
+      <node id="&quot;already involved in so many other projects&quot;" label="idea">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </node>
+      <node id="&quot;ego - self-serving&quot;" label="idea">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </node>
+      <node id="EgoIssues" label="tag" />
+      <node id="&quot;overcommitment!&quot;" label="idea">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </node>
+      <node id="&quot;insufficient time / strength / energy&quot;" label="idea">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </node>
+      <node id="&quot;arrogance&quot;" label="idea">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </node>
+      <node id="&quot;privilege&quot;" label="idea">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </node>
+      <node id="Privilege" label="tag" />
+      <node id="&quot;isolation&quot;" label="idea">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </node>
+      <node id="Isolation" label="tag" />
+      <node id="&quot;language insufficiency&quot;" label="idea">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </node>
+      <node id="CommLanguage" label="tag" />
+      <node id="&quot;difficulty of involving numerous people&quot;" label="idea">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </node>
+      <node id="Collaboration" label="tag" />
+      <node id="&quot;Difficulty of involving numerous people&quot;" label="idea">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </node>
+      <node id="&quot;A fear of doing new things and a history of not giving new projects enough support&quot;" label="idea">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </node>
+      <node id="GoalsAchieve" label="tag" />
+      <node id="&quot;no one takes full leadership and so we only start something, but not finish it&quot;" label="idea">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </node>
+      <node id="Leadership" label="tag" />
+      <node id="&quot;we start fighting over best ways to achieve same goal... and never accomplish the goal. enthusiasm changes to frustration.&quot;" label="idea">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </node>
+      <node id="&quot;We may already have more ministry type activities than workers.&quot;" label="idea">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </node>
+      <node id="WorkerAvail" label="tag" />
+      <node id="&quot;introverted and self conscious congregants (including me)&quot;" label="idea">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </node>
+      <node id="Introversion" label="tag" />
+      <node id="&quot;Our values are so widespread that I'm concerned it will be hard to get the congregation to rally around any one cause or group&quot;" label="idea">
+        <attvalues>
+          <attvalue for="0" value="2" />
+        </attvalues>
+      </node>
+      <node id="ValueDiverge" label="tag" />
+      <node id="&quot;We don't want to prescribe what is needed for any one group, we need to connect with them and ask&quot;" label="idea">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </node>
+      <node id="&quot;We rely a lot on a few people&quot;" label="idea">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </node>
+      <node id="&quot;Will we dilute our reach so far that we aren't able to contribute in meaningful ways?&quot;" label="idea">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </node>
+      <node id="&quot;if there is not a direct community need we are called to act on, do we need to identify and build more outreach?&quot;" label="idea">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </node>
+      <node id="&quot;I am not quite clear what the goal of this activity is.&quot;" label="idea">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </node>
+      <node id="MISC" label="tag" />
+      <node id="&quot;Time Resources&quot;" label="idea">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </node>
+      <node id="&quot;Can we get a group in common agreement&quot;" label="idea">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </node>
+      <node id="&quot;Time - some of us are busy&quot;" label="idea">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </node>
+      <node id="&quot;few do too much in congregation&quot;" label="idea">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </node>
+      <node id="&quot;Anti-LGBTQ+ Sentiments&quot;" label="idea">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </node>
+      <node id="&quot;Sustainability&quot;" label="idea">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </node>
+      <node id="&quot;When people who come aren't middle/upper class we aren't welcoming&quot;" label="idea">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </node>
+      <node id="&quot;Time&quot;" label="idea">
+        <attvalues>
+          <attvalue for="0" value="2" />
+        </attvalues>
+      </node>
+      <node id="&quot;Energy&quot;" label="idea">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </node>
+      <node id="&quot;We're already too busy&quot;" label="idea">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </node>
+      <node id="&quot;Our hurdle is what we separately are engaged with and responsible for&quot;" label="idea">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </node>
+      <node id="&quot;We are full of different personalities&quot;" label="idea">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </node>
+      <node id="&quot;Don't start big&quot;" label="idea">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </node>
+      <node id="&quot;Only a few folks do all the work&quot;" label="idea">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </node>
+      <node id="&quot;ANOTHER FLIPPING COMMITTEE!!!!!&quot;" label="idea">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </node>
+      <node id="&quot;Lack of Time&quot;" label="idea">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </node>
+      <node id="&quot;a few congregants do too much and others don't understand&quot;" label="idea">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </node>
+      <node id="&quot;We talk a lot but do a little&quot;" label="idea">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </node>
+      <node id="&quot;many of us are Sunday Only&quot; participants&quot;&quot;" label="idea">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </node>
+      <node id="&quot;Effective coordination between sub groups&quot;" label="idea">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </node>
+      <node id="&quot;Sustained Leadership&quot;" label="idea">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </node>
+      <node id="&quot;Risk of direct involvement&quot;" label="idea">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </node>
+      <node id="&quot;politics&quot;" label="idea">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </node>
+      <node id="&quot;We can't make a difference&quot;" label="idea">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge source="&quot;longevity&quot;" target="Longevity" id="0" />
+      <edge source="Longevity" target="&quot;Sustainability&quot;" id="1" />
+      <edge source="&quot;time&quot;" target="TimeMgmt" id="2" />
+      <edge source="TimeMgmt" target="&quot;time commitments&quot;" id="3" />
+      <edge source="TimeMgmt" target="&quot;do people have time and resources to add more?&quot;" id="4" />
+      <edge source="TimeMgmt" target="&quot;insufficient time / strength / energy&quot;" id="5" />
+      <edge source="TimeMgmt" target="&quot;Time Resources&quot;" id="6" />
+      <edge source="TimeMgmt" target="&quot;Time - some of us are busy&quot;" id="7" />
+      <edge source="TimeMgmt" target="&quot;Time&quot;" id="8" />
+      <edge source="TimeMgmt" target="&quot;Energy&quot;" id="9" />
+      <edge source="TimeMgmt" target="&quot;Our hurdle is what we separately are engaged with and responsible for&quot;" id="10" />
+      <edge source="TimeMgmt" target="&quot;Lack of Time&quot;" id="11" />
+      <edge source="&quot;full force action&quot;" target="Commitment" id="12" />
+      <edge source="Commitment" target="&quot;boredom / lack of follow through&quot;" id="13" />
+      <edge source="Commitment" target="&quot;overcommitment!&quot;" id="14" />
+      <edge source="Commitment" target="&quot;Our hurdle is what we separately are engaged with and responsible for&quot;" id="15" />
+      <edge source="Commitment" target="&quot;We talk a lot but do a little&quot;" id="16" />
+      <edge source="Commitment" target="&quot;many of us are Sunday Only&quot; participants&quot;&quot;" id="17" />
+      <edge source="&quot;cruel optimism - concentrate on small tasks but never changing the system&quot;" target="SysChange" id="18" />
+      <edge source="&quot;how to gauge success&quot;" target="MeasureSuccess" id="19" />
+      <edge source="&quot;project not designed from completion for community&quot;" target="ProjDesign" id="20" />
+      <edge source="&quot;safety (physical)&quot;" target="Safety" id="21" />
+      <edge source="Safety" target="&quot;safety for all involved&quot;" id="22" />
+      <edge source="Safety" target="&quot;Risk of direct involvement&quot;" id="23" />
+      <edge source="&quot;otherness&quot;" target="Inclusivity" id="24" />
+      <edge source="Inclusivity" target="&quot;When people who come aren't middle/upper class we aren't welcoming&quot;" id="25" />
+      <edge source="&quot;well-intentioned people getting it wrong&quot;" target="KnowledgeUnderstanding" id="26" />
+      <edge source="KnowledgeUnderstanding" target="&quot;what are the needs? how do we find out?&quot;" id="27" />
+      <edge source="KnowledgeUnderstanding" target="&quot;We don't want to prescribe what is needed for any one group, we need to connect with them and ask&quot;" id="28" />
+      <edge source="KnowledgeUnderstanding" target="&quot;if there is not a direct community need we are called to act on, do we need to identify and build more outreach?&quot;" id="29" />
+      <edge source="KnowledgeUnderstanding" target="&quot;a few congregants do too much and others don't understand&quot;" id="30" />
+      <edge source="&quot;coming to consensus about what needs to be done&quot;" target="Consensus" id="31" />
+      <edge source="Consensus" target="&quot;we start fighting over best ways to achieve same goal... and never accomplish the goal. enthusiasm changes to frustration.&quot;" id="32" />
+      <edge source="Consensus" target="&quot;Can we get a group in common agreement&quot;" id="33" />
+      <edge source="&quot;unwillingness to transport people&quot;" target="ResourceTransport" id="34" />
+      <edge source="ResourceTransport" target="&quot;do people have time and resources to add more?&quot;" id="35" />
+      <edge source="&quot;replicating or competing with services that already exist&quot;" target="Overextend" id="36" />
+      <edge source="Overextend" target="&quot;already involved in so many other projects&quot;" id="37" />
+      <edge source="Overextend" target="&quot;Will we dilute our reach so far that we aren't able to contribute in meaningful ways?&quot;" id="38" />
+      <edge source="Overextend" target="&quot;We're already too busy&quot;" id="39" />
+      <edge source="Overextend" target="&quot;ANOTHER FLIPPING COMMITTEE!!!!!&quot;" id="40" />
+      <edge source="&quot;alienating or offending&quot;" target="Alienation" id="41" />
+      <edge source="Alienation" target="&quot;Anti-LGBTQ+ Sentiments&quot;" id="42" />
+      <edge source="&quot;ego - self-serving&quot;" target="EgoIssues" id="43" />
+      <edge source="EgoIssues" target="&quot;arrogance&quot;" id="44" />
+      <edge source="EgoIssues" target="&quot;politics&quot;" id="45" />
+      <edge source="EgoIssues" target="&quot;We can't make a difference&quot;" id="46" />
+      <edge source="&quot;privilege&quot;" target="Privilege" id="47" />
+      <edge source="&quot;isolation&quot;" target="Isolation" id="48" />
+      <edge source="&quot;language insufficiency&quot;" target="CommLanguage" id="49" />
+      <edge source="&quot;difficulty of involving numerous people&quot;" target="Collaboration" id="50" />
+      <edge source="Collaboration" target="&quot;Difficulty of involving numerous people&quot;" id="51" />
+      <edge source="Collaboration" target="&quot;Effective coordination between sub groups&quot;" id="52" />
+      <edge source="&quot;A fear of doing new things and a history of not giving new projects enough support&quot;" target="GoalsAchieve" id="53" />
+      <edge source="GoalsAchieve" target="&quot;we start fighting over best ways to achieve same goal... and never accomplish the goal. enthusiasm changes to frustration.&quot;" id="54" />
+      <edge source="GoalsAchieve" target="&quot;Don't start big&quot;" id="55" />
+      <edge source="&quot;no one takes full leadership and so we only start something, but not finish it&quot;" target="Leadership" id="56" />
+      <edge source="Leadership" target="&quot;Sustained Leadership&quot;" id="57" />
+      <edge source="&quot;We may already have more ministry type activities than workers.&quot;" target="WorkerAvail" id="58" />
+      <edge source="WorkerAvail" target="&quot;We rely a lot on a few people&quot;" id="59" />
+      <edge source="WorkerAvail" target="&quot;few do too much in congregation&quot;" id="60" />
+      <edge source="WorkerAvail" target="&quot;Only a few folks do all the work&quot;" id="61" />
+      <edge source="WorkerAvail" target="&quot;a few congregants do too much and others don't understand&quot;" id="62" />
+      <edge source="&quot;introverted and self conscious congregants (including me)&quot;" target="Introversion" id="63" />
+      <edge source="&quot;Our values are so widespread that I'm concerned it will be hard to get the congregation to rally around any one cause or group&quot;" target="ValueDiverge" id="64" />
+      <edge source="ValueDiverge" target="&quot;We are full of different personalities&quot;" id="65" />
+      <edge source="&quot;I am not quite clear what the goal of this activity is.&quot;" target="MISC" id="66" />
+    </edges>
+  </graph>
+</gexf>
