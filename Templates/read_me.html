@@ -12,35 +12,35 @@
         .container {
             max-width: 960px;
         }
-        /* Add your custom CSS here */
+        .mt-4 {
+            padding-bottom: 20px;
+        }
     </style>
+    <script src="https://cdn.jsdelivr.net/npm/showdown/dist/showdown.min.js"></script>
 </head>
 <body>
 
 <div class="container">
-    <!-- Include the same header and tab bar here -->
-
     <h1 class="mt-4">Congregational Data Analysis and Visualization: A Comprehensive Report</h1>
-    <!-- Your content goes here -->
-    <section>
-        <h2>Abstract</h2>
-        <p><!-- Abstract content --></p>
-    </section>
-    
-    <section>
-        <h2>Introduction</h2>
-        <p><!-- Introduction content --></p>
-    </section>
-    
-    <!-- Repeat for each section of your report -->
-
+    <div id="markdownContent"></div>
 </div>
 
 <script>
     function goBack() {
         window.history.back();
     }
-    // Additional JavaScript can be added here
+
+// Fetch Markdown file
+fetch('/static/report.md')
+    .then(response => response.text())
+    .then(markdown => {
+        var converter = new showdown.Converter();
+        var html = converter.makeHtml(markdown);
+        document.getElementById('markdownContent').innerHTML = html;
+    })
+    .catch(error => console.error('Error fetching Markdown:', error));
+
+
 </script>
 
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>

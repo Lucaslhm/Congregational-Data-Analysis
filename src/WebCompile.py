@@ -1,7 +1,7 @@
 import argparse
-from flask import Flask, render_template_string
+from flask import Flask, render_template_string, abort, send_from_directory
 
-app = Flask(__name__)
+app = Flask(__name__, static_folder="../static")
 
 # Set up the argument parser
 parser = argparse.ArgumentParser(description='Serve Congregational Visualizations.')
@@ -42,6 +42,22 @@ def report():
     # Serve the report page and set the active tab to 'report'
     # Include a new variable to indicate that it's the report page
     return render_template_string(open(args.base).read(), content=open(args.report).read(), active_tab='report', is_report=True)
+
+@app.route('/favicon.ico')
+def favicon():
+    # If you have a favicon.ico file in your static directory, use the following line:
+    # return send_from_directory(os.path.join(app.root_path, 'static'), 'favicon.ico', mimetype='image/vnd.microsoft.icon')
+    
+    # If you don't have a favicon, you can simply return a 404 response
+    abort(404)
+
+
+@app.route('/static/<path:filename>')
+def static_files(filename):
+    return send_from_directory(app.static_folder, filename)
+
+if __name__ == '__main__':
+    app.run(debug=True)
 
 
 if __name__ == '__main__':
