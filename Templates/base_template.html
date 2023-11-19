@@ -3,19 +3,50 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ministry Discernment</title>
+    <title>Ministry Discernment Visualizations</title>
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
     <style>
-        .nav-item .nav-link.active {
+        .nav-link.active {
             background-color: #007bff;
             color: white;
+        }
+        .visualization-content {
+            display: none; /* Start with all content hidden */
+        }
+        .full-height {
+            height: calc(100vh - 70px); /* Adjust for actual header height */
+        }
+        .control-text {
+            font-size: large;
+            font-weight: bold;
+            padding-right: 20px; /* Space between controls and visualization */
+        }
+        .explanatory-text {
+            font-size: large;
+            font-weight: bold;
+            padding-top: 10px; /* Space between visualization and explanatory text */
+        }
+        .text-right {
+            text-align: right;
+        }
+        /* Ensure that the explanatory text is snug against the visualization */
+        .row {
+            margin-left: 0;
+            margin-right: 0;
         }
     </style>
 </head>
 <body>
 
-<div class="container mt-3">
-    <h2 class="mb-3 text-right">Ministry Discernment</h2>
+<div class="container-fluid mt-3">
+    <div class="row">
+        <div class="col-12 text-right">
+            <h2>Ministry Discernment Team</h2>
+            <h4 class="text-muted">Listening Circle Data</h4>
+        </div>
+    </div>
+
+    <!-- Tabs navigation -->
     <ul class="nav nav-tabs">
         <li class="nav-item">
             <a class="nav-link {{ 'active' if active_tab == 'ideas' else '' }}" href="/ideas">Ideas</a>
@@ -26,14 +57,60 @@
         <li class="nav-item">
             <a class="nav-link {{ 'active' if active_tab == 'fears' else '' }}" href="/fears">Fears</a>
         </li>
+        <ul class="nav nav-tabs ml-auto">
+            <li class="nav-item">
+                <a class="nav-link" href="https://docs.google.com/spreadsheets/d/1R7w5ALyY0c5IYkkkFbWvIwvmOvev5DUjgTHQ9zp1bik/edit?usp=sharing" target="_blank">Data</a>
+            </li>
+            <li class="nav-item ml-auto">
+                <a class="nav-link {{ 'active' if active_tab == 'report' else '' }}" href="/report">Report</a>
+            </li>
+        </ul>
     </ul>
 
-    <!-- Visualization Content will be injected here -->
-    <div class="tab-content" id="tabContent">
-        {{ content|safe }}
+    <!-- Main Content Area -->
+    <div class="row mt-4 full-height">
+        {% if active_tab in ['ideas', 'strengths', 'fears'] %}
+            <!-- Controls and Explanatory Text for Ideas, Strengths, and Fears -->
+            <div class="col-md-3">
+                <div class="control-text">
+                    <!-- Control text here -->
+                    <p>Controls:</p>
+                    <ul>
+                        <li>Scroll to zoom in/out</li>
+                        <li>Drag with left click to pan</li>
+                        <li>Drag nodes to reposition</li>
+                        <li>Hover over nodes for more information</li>
+                        <li>Right click & select "Save image as" to take a screenshot</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-md-9">
+                <div class="tab-content" id="tabContent">
+                    {{ content|safe }}
+                </div>
+                <div class="explanatory-text">
+                    <!-- Explanatory text here -->
+                    <p>This interactive display maps the interconnected ideas, strengths, and fears shared during our congregational listening circles. Each circle (or 'node') represents a thought or response. The color and size of the nodes provide additional insights:</p>
+                <ul>
+                    <li>Blue, Red, Green nodes are individual responses.</li>
+                    <li>Yellow nodes are topics (or tags) that connect individual responses</li>
+                    <li>Green nodes indicate responses linked to two different topics.</li>
+                    <li>Red nodes signify responses associated with three or more topics.</li>
+                </ul>
+                <p>Lines (or 'edges') connect responses to common themes, illustrating the collective thoughts of our community. The size of a node reflects the number of times a particular response or topic was mentioned. To explore, hover your cursor over a node for detailed information, zoom in/out, or click and drag to navigate the visualization landscape.</p>
+                    <!-- [Additional explanatory text] -->
+                </div>
+            </div>
+        {% elif active_tab == 'report' %}
+            <!-- Full-width content for the report -->
+            <div class="col-12">
+                {{ content|safe }}
+            </div>
+        {% endif %}
     </div>
 </div>
 
+<!-- Scripts -->
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.7.0/dist/umd/popper.min.js"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
