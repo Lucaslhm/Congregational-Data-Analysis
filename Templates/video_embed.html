@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project Report</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Highlight.js Stylesheet for Atom One Dark Reasonable theme -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/highlight.js/styles/atom-one-dark-reasonable.min.css">
+    <style>
+        .container { max-width: 960px; }
+        .mt-4 { margin-top: 1.5em; 
+        margin-bottom: 1.5em;
+        }
+        .video-container {
+            max-width: 1080px; /* You can adjust this value */
+            margin: auto;
+        }
+        .embed-responsive {
+            position: relative;
+            display: block;
+            width: 100%;
+            padding: 0;
+            overflow: hidden;
+        }
+        .embed-responsive::before {
+            display: block;
+            content: "";
+            padding-top: 56.25%;
+        }
+        .embed-responsive-item {
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            width: 100%;
+            height: 100%;
+            border: none;
+        }
+        .explanatory-text {
+            font-size: large;
+            font-weight: bold;
+            padding-top: 10px; /* Space between visualization and explanatory text */
+        }
+        .col-md-9{
+            padding-top: 10;
+            max-width: 100%;
+        }
+        .explanatory-title{
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1 class="mt-4">Congregational Data Analysis and Visualization: <br> A Video Explanation</h1>
+        <div class="markdown-container">
+            <div id="markdownContent"></div>
+        </div>
+    </div>
+
+    <div class="video-container">
+        <div class="embed-responsive embed-responsive-16by9">
+            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/YGqdjaz2Upg" title="Mr. Sandman, Man Me A Sand (Full parody)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
+        <div class="col-md-9">
+            <div class="explanatory-text">
+                <!-- Explanatory text here -->
+                <p class="explanatory-title">** Video has not been recorded yet and this embed will be updated when it is done **</p>
+                <p>This video, produced by the Ministry Discernment Team, presents an initial broad analysis of our findings. Utilizing open-source data and our web interface, we discuss and demonstrate our insights. While our interpretations of the data are subjective, the data itself remains objective. We are committed to maintaining openness in both our tools and data collection, enabling others to form their own subjective opinions based on the same objective foundation as ours.</p>
+            </div>
+        </div>
+    </div>
+
+<!-- Bootstrap dependencies -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.7.0/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</body>
+</html>

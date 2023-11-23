@@ -10,6 +10,7 @@ parser.add_argument('ideas', help='HTML file containing the Congregational Ideas
 parser.add_argument('strengths', help='HTML file containing the Congregational Strengths visualization.')
 parser.add_argument('fears', help='HTML file containing the Congregational Fears visualization.')
 parser.add_argument('report', help='HTML file containing the report.')
+parser.add_argument('video', help='HTML file containing the embedded youtube video.')
 
 # Parse the arguments
 args = parser.parse_args()
@@ -43,13 +44,16 @@ def report():
     # Include a new variable to indicate that it's the report page
     return render_template_string(open(args.base).read(), content=open(args.report).read(), active_tab='report', is_report=True)
 
+@app.route('/video')
+def video():
+    # Serve the video page and set the active tab to 'video'
+    return render_template_string(open(args.base).read(), content=open(args.video).read(), active_tab='video', is_report=True)
+
+
 @app.route('/favicon.ico')
 def favicon():
     # If you have a favicon.ico file in your static directory, use the following line:
-    # return send_from_directory(os.path.join(app.root_path, 'static'), 'favicon.ico', mimetype='image/vnd.microsoft.icon')
-    
-    # If you don't have a favicon, you can simply return a 404 response
-    abort(404)
+    return send_from_directory(app.static_folder, "favicon.ico", mimetype='image/vnd.microsoft.icon')
 
 
 @app.route('/static/<path:filename>')

@@ -6,15 +6,38 @@
     <title>Ministry Discernment Visualizations</title>
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
     <style>
+        .row{
+            padding-left: 10px;
+            padding-right: 10px;
+        }
+        .container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl{
+            padding-left: 0px !important;
+            padding-right: 0px !important;
+        }
+        .header-area {
+            background-color: #007bff; /* Change this color to your preference */
+            padding-bottom: 10px;
+        }
+        .header-area h2, .header-area h4 {
+            color: white; /* Color of the title text */
+            margin: 0; /* Remove default margins */
+            padding: 10px; /* Add some padding for visual comfort */
+        }
+        .nav-link {
+            color: white; /* This will make text color white */
+        }
         .nav-link.active {
-            background-color: #007bff;
+            background-color: #0056b3; /* Darker shade for active tab */
             color: white;
         }
-        .visualization-content {
-            display: none; /* Start with all content hidden */
+        .nav-tabs {
+            background-color: #1500ff; /* Change this color to your preference */
         }
-        .full-height {
-            height: calc(100vh - 70px); /* Adjust for actual header height */
+        .col-12, .col-md-3, .col-md-9 {
+            padding: 0; /* Remove padding from columns */
+        }
+        .header-area .text-muted{
+            color:white !important;
         }
         .control-text {
             font-size: large;
@@ -29,20 +52,22 @@
         .text-right {
             text-align: right;
         }
-        /* Ensure that the explanatory text is snug against the visualization */
-        .row {
-            margin-left: 0;
-            margin-right: 0;
+        .GoogleRedirect{
+            padding-top: 10em;
+            text-align: center;
+            font-weight: bold;
         }
     </style>
 </head>
 <body>
 
-<div class="container-fluid mt-3">
-    <div class="row">
-        <div class="col-12 text-right">
-            <h2>Ministry Discernment Team</h2>
-            <h4 class="text-muted">Listening Circle Data</h4>
+<div class="container-fluid">
+    <div class="header-area">
+        <div class="row">
+            <div class="col-12 text-right">
+                <h2>Ministry Discernment Team</h2>
+                <h4 class="text-muted">Listening Circle Data</h4>
+            </div>
         </div>
     </div>
 
@@ -59,6 +84,9 @@
         </li>
         <ul class="nav nav-tabs ml-auto">
             <li class="nav-item">
+                <a class="nav-link {{ 'active' if active_tab == 'video' else '' }}" href="/video">Video</a>
+            </li>
+            <li class="nav-item">
                 <a class="nav-link" href="https://docs.google.com/spreadsheets/d/1R7w5ALyY0c5IYkkkFbWvIwvmOvev5DUjgTHQ9zp1bik/edit?usp=sharing" target="_blank">Data</a>
             </li>
             <li class="nav-item ml-auto">
@@ -66,11 +94,13 @@
             </li>
         </ul>
     </ul>
+</div>
 
+<div class="container-fluid mt-4 full-height">
     <!-- Main Content Area -->
-    <div class="row mt-4 full-height">
-        {% if active_tab in ['ideas', 'strengths', 'fears'] %}
-            <!-- Controls and Explanatory Text for Ideas, Strengths, and Fears -->
+    {% if active_tab in ['ideas', 'strengths', 'fears'] %}
+        <!-- Controls and Explanatory Text for Ideas, Strengths, and Fears -->
+        <div class="row">
             <div class="col-md-3">
                 <div class="control-text">
                     <!-- Control text here -->
@@ -83,6 +113,11 @@
                         <li>Right click & select "Save image as" to take a screenshot</li>
                     </ul>
                 </div>
+                <!-- Google Sheet Button -->
+                <div class="GoogleRedirect">
+                    <p>Click here to view the direct responses from the listening circles in a google sheet:</p>
+                    <a href="https://docs.google.com/spreadsheets/d/1R7w5ALyY0c5IYkkkFbWvIwvmOvev5DUjgTHQ9zp1bik/edit?usp=sharing" target="_blank" class="myButton">Google Sheet</a>
+                </div>
             </div>
             <div class="col-md-9">
                 <div class="tab-content" id="tabContent">
@@ -91,24 +126,56 @@
                 <div class="explanatory-text">
                     <!-- Explanatory text here -->
                     <p>This interactive display maps the interconnected ideas, strengths, and fears shared during our congregational listening circles. Each circle (or 'node') represents a thought or response. The color and size of the nodes provide additional insights:</p>
-                <ul>
-                    <li>Blue, Red, Green nodes are individual responses.</li>
-                    <li>Yellow nodes are topics (or tags) that connect individual responses</li>
-                    <li>Green nodes indicate responses linked to two different topics.</li>
-                    <li>Red nodes signify responses associated with three or more topics.</li>
-                </ul>
-                <p>Lines (or 'edges') connect responses to common themes, illustrating the collective thoughts of our community. The size of a node reflects the number of times a particular response or topic was mentioned. To explore, hover your cursor over a node for detailed information, zoom in/out, or click and drag to navigate the visualization landscape.</p>
-                    <!-- [Additional explanatory text] -->
+                    <ul>
+                        <li>Blue, Red, Green nodes are individual responses.</li>
+                        <li>Yellow nodes are topics (or tags) that connect individual responses</li>
+                        <li>Green nodes indicate responses linked to two different topics.</li>
+                        <li>Red nodes signify responses associated with three or more topics.</li>
+                    </ul>
+                    <p>Lines (or 'edges') connect responses to common themes, illustrating the collective thoughts of our community. The size of a node reflects the number of times a particular response or topic was mentioned. To explore, hover your cursor over a node for detailed information, zoom in/out, or click and drag to navigate the visualization landscape.</p>
                 </div>
             </div>
-        {% elif active_tab == 'report' %}
-            <!-- Full-width content for the report -->
+        </div>
+    {% elif active_tab == 'report' %}
+        <!-- Full-width content for the report -->
+        <div class="row">
             <div class="col-12">
                 {{ content|safe }}
             </div>
-        {% endif %}
-    </div>
+        </div>
+    {% elif active_tab == 'video' %}
+        <!-- Full-width content for the video -->
+        <div class="row">
+            <div class="col-12">
+                {{ content|safe }}
+            </div>
+        </div>
+    {% endif %}
 </div>
+
+<style>
+    .myButton {
+        background-color: #19ad6f;
+        border-radius: 7px;
+        border: 2px solid #000000;
+        display: inline-block;
+        cursor: pointer;
+        color: #ffffff;
+        font-family: Georgia;
+        font-size: 25px;
+        font-weight: bold;
+        padding: 6px 24px;
+        text-decoration: none;
+        text-shadow: -2px 1px 1px #2f6627;
+    }
+    .myButton:hover {
+        background-color: #5cbf2a;
+    }
+    .myButton:active {
+        position: relative;
+        top: 1px;
+    }
+</style>
 
 <!-- Scripts -->
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>

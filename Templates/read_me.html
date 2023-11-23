@@ -5,46 +5,119 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Project Report</title>
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Highlight.js Stylesheet for Atom One Dark Reasonable theme -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/highlight.js/styles/atom-one-dark-reasonable.min.css">
     <style>
-        body {
-            padding-top: 20px;
+        .container { max-width: 960px; }
+        .mt-4 { margin-top: 1.5em; 
+        margin-bottom: 1.5em;
         }
-        .container {
-            max-width: 960px;
+        .code-header {
+            display: flex;
+            justify-content: space-between;
+            background-color: #333;
+            color: #fff;
+            border-top-left-radius: 5px;
+            border-top-right-radius: 5px;
+            padding: 5px 10px;
         }
-        .mt-4 {
-            padding-bottom: 20px;
+        .markdown-container {
+            /*background-color: #f8f8f8;  Light gray background */
+            padding: 15px;
+            border-radius: 5px;
+            margin: 20px auto;
+            width: 100%; /* Adjust width as needed */
+            /* box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);  Optional: adds subtle shadow for depth */
+        }
+        .code-language-label { font-weight: Thin; }
+        .copy-code-btn {
+            cursor: pointer;
+            background: none;
+            border: none;
+            color: #fff;
+            font-weight: Thin;
+        }
+        pre code {
+            display: block;
+            padding: 10px;
+            overflow-x: auto;
+            border: 1px solid #333;
+            border-top: none;
+            border-bottom-left-radius: 5px;
+            border-bottom-right-radius: 5px;
         }
     </style>
-    <script src="https://cdn.jsdelivr.net/npm/showdown/dist/showdown.min.js"></script>
 </head>
 <body>
 
 <div class="container">
-    <h1 class="mt-4">Congregational Data Analysis and Visualization: A Comprehensive Report</h1>
-    <div id="markdownContent"></div>
+    <h1 class="mt-4">Congregational Data Analysis and Visualization: <br> A Comprehensive Report</h1>
+    <div class="markdown-container">
+        <div id="markdownContent"></div>
+    </div>
 </div>
+
+<!-- Load showdown for Markdown to HTML conversion -->
+<script src="https://cdn.jsdelivr.net/npm/showdown/dist/showdown.min.js"></script>
+
+<!-- Load highlight.js and its Python language definition -->
+<script src="https://cdn.jsdelivr.net/npm/highlight.js/lib/core.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/highlight.js/lib/languages/python.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/highlight.min.js"></script>
 
 <script>
     function goBack() {
         window.history.back();
     }
 
-// Fetch Markdown file
-fetch('/static/report.md')
-    .then(response => response.text())
-    .then(markdown => {
-        var converter = new showdown.Converter();
-        var html = converter.makeHtml(markdown);
-        document.getElementById('markdownContent').innerHTML = html;
-    })
-    .catch(error => console.error('Error fetching Markdown:', error));
+    function copyToClipboard(button, codeBlock) {
+    const text = codeBlock.innerText;
+    navigator.clipboard.writeText(text).then(function() {
+        button.innerText = 'Copied';
+        setTimeout(function() {
+            button.innerText = 'Copy Code';
+        }, 3000);
+    }, function(err) {
+        console.error('Could not copy text: ', err);
+    });
+}
 
+    // Initialization of highlight.js
+    function highlightCodeBlocks() {
+        document.querySelectorAll('pre code').forEach((block) => {
+            hljs.highlightBlock(block);
 
+            // Create and insert the header for the code block
+            var header = document.createElement('div');
+            header.className = 'code-header';
+            header.innerHTML = '<span class="code-language-label">Python</span>' +
+                '<button class="copy-code-btn" onclick="copyToClipboard(this, this.parentElement.nextElementSibling)">Copy Code</button>';
+            block.parentNode.insertBefore(header, block);
+        });
+    }
+
+    // Fetch the Markdown content and convert it to HTML
+    fetch('/static/report.md')
+        .then(response => response.text())
+        .then(markdown => {
+            const converter = new showdown.Converter();
+            const html = converter.makeHtml(markdown);
+            const contentContainer = document.getElementById('markdownContent');
+            contentContainer.innerHTML = html;
+            highlightCodeBlocks(); // Call after the markdown is inserted into the DOM
+        })
+        .catch(error => console.error('Error fetching Markdown:', error));
+
+    // Ensure the highlight.js library initializes once the DOM content is loaded
+    document.addEventListener('DOMContentLoaded', (event) => {
+        highlightCodeBlocks(); // Also call on DOMContentLoaded to catch any dynamic content
+    });
 </script>
 
+<!-- Bootstrap dependencies -->
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.7.0/dist/umd/popper.min.js"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
 </body>
 </html>
