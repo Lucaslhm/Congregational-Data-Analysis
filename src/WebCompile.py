@@ -3,14 +3,14 @@ from flask import Flask, render_template_string, abort, send_from_directory
 
 app = Flask(__name__, static_folder="../static")
 
-# Set up the argument parser
+# Set up the argument parser with default values
 parser = argparse.ArgumentParser(description='Serve Congregational Visualizations.')
-parser.add_argument('base', help='Base HTML to be used to display the site')
-parser.add_argument('ideas', help='HTML file containing the Congregational Ideas visualization.')
-parser.add_argument('strengths', help='HTML file containing the Congregational Strengths visualization.')
-parser.add_argument('fears', help='HTML file containing the Congregational Fears visualization.')
-parser.add_argument('report', help='HTML file containing the report.')
-parser.add_argument('video', help='HTML file containing the embedded youtube video.')
+parser.add_argument('--base', help='Base HTML to be used to display the site', default='Templates/base_template.html')
+parser.add_argument('--ideas', help='HTML file containing the Congregational Ideas visualization.', default='Figures/ideaVisualization.html')
+parser.add_argument('--strengths', help='HTML file containing the Congregational Strengths visualization.', default='Figures/strengthVisualization.html')
+parser.add_argument('--fears', help='HTML file containing the Congregational Fears visualization.', default='Figures/fearVisualization.html')
+parser.add_argument('--report', help='HTML file containing the report.', default='Templates/read_me.html')
+parser.add_argument('--video', help='HTML file containing the embedded youtube video.', default='Templates/video_embed.html')
 
 # Parse the arguments
 args = parser.parse_args()
