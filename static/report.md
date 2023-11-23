@@ -496,6 +496,7 @@ Here's an overview of the GitHub repository's structure:
 - .gitignore: Lists files and directories ignored by git.
 - LICENSE: GNU General Public License v3.0
 - README.md: Provides a descriptive overview of the repository.
+- requirements.txt: Provides a list of required dependencies to install via pip
 ```
 #### Open Source Code
 
@@ -546,7 +547,7 @@ Before starting the reproduction process, ensure that you have the following pre
 
 You can install the Python prerequisites with the following command:
 
-`pip install networkx pandas pyvis argparse flask`
+`pip install -r requirements.txt`
 
 ### Steps to Reproduce Analysis
 

@@ -1,0 +1,4 @@
+Flask==2.1.2
+Networkx==2.8
+Pyvis==0.1.9
+pandas==1.4.2
