@@ -64,7 +64,7 @@ Each question was designed to elicit responses that, when aggregated, would prov
 
 #### Setting and Atmosphere
 
-Each session provided a supportive environment where participants could freely express their views. The in-person sessions utilized physical sticky notes for response recording, whereas the virtual session on Zoom utilized the digital tool [Jameboard](https://support.google.com/jamboard/answer/7424836?hl=en) to emulate the experience. After sharing their initial thoughts on sticky notes, participants were invited to elaborate on their responses, fostering a rich group discussion that yielded deeper insights.
+Each session provided a supportive environment where participants could freely express their views. The in-person sessions utilized physical sticky notes for response recording, whereas the virtual session on Zoom utilized the digital tool [Jamboard](https://support.google.com/jamboard/answer/7424836?hl=en) to emulate the experience. After sharing their initial thoughts on sticky notes, participants were invited to elaborate on their responses, fostering a rich group discussion that yielded deeper insights.
 
 #### Documentation Process
 
@@ -492,6 +492,7 @@ Here's an overview of the GitHub repository's structure:
     - ListeningCircleParse.py: Parses the CSV data into network structure.
     - ListeningCircleVisualizer.py: Generates the network visualization.
     - WebCompile.py: Integrates visualizations into a web interface.
+    - gunicornLaunch.py: Loads the web interface using gunicorn with no argparse
 
 - .gitignore: Lists files and directories ignored by git.
 - LICENSE: GNU General Public License v3.0
