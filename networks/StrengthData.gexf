@@ -1,85 +1,35 @@
 <?xml version='1.0' encoding='utf-8'?>
 <gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
-  <meta lastmodifieddate="2023-10-29">
-    <creator>NetworkX 3.2</creator>
+  <meta lastmodifieddate="2023-11-24">
+    <creator>NetworkX 3.2.1</creator>
   </meta>
   <graph defaultedgetype="undirected" mode="static" name="">
     <attributes mode="static" class="node">
       <attribute id="0" title="weight" type="long" />
     </attributes>
     <nodes>
-      <node id="&quot;our building spaces and grounds&quot;" label="idea">
+      <node id="&quot;education&quot;" label="idea">
         <attvalues>
           <attvalue for="0" value="1" />
         </attvalues>
       </node>
-      <node id="Facilities" label="tag" />
-      <node id="&quot;people power&quot;" label="idea">
+      <node id="Education" label="tag" />
+      <node id="&quot;Education&quot;" label="idea">
         <attvalues>
           <attvalue for="0" value="1" />
         </attvalues>
       </node>
-      <node id="PeoplePower" label="tag" />
-      <node id="&quot;money&quot;" label="idea">
-        <attvalues>
-          <attvalue for="0" value="2" />
-        </attvalues>
-      </node>
-      <node id="FinancialStrength" label="tag" />
-      <node id="&quot;shared skills&quot;" label="idea">
+      <node id="&quot;Educational levels of experience&quot;" label="idea">
         <attvalues>
           <attvalue for="0" value="1" />
         </attvalues>
       </node>
-      <node id="SkillsExperience" label="tag" />
-      <node id="&quot;congregation's compassion and generosity&quot;" label="idea">
+      <node id="&quot;Brains&quot;" label="idea">
         <attvalues>
           <attvalue for="0" value="1" />
         </attvalues>
       </node>
-      <node id="CompassionLove" label="tag" />
-      <node id="&quot;Strong YA Group&quot;" label="idea">
-        <attvalues>
-          <attvalue for="0" value="1" />
-        </attvalues>
-      </node>
-      <node id="StrongYAGroups" label="tag" />
-      <node id="&quot;we don't have hidden agenda to save souls, can focus on needs/perspectives expressed&quot;" label="idea">
-        <attvalues>
-          <attvalue for="0" value="1" />
-        </attvalues>
-      </node>
-      <node id="EthicalPractice" label="tag" />
-      <node id="&quot;desire to learn from others re: culture and feelings&quot;" label="idea">
-        <attvalues>
-          <attvalue for="0" value="1" />
-        </attvalues>
-      </node>
-      <node id="LearnCuriosity" label="tag" />
-      <node id="&quot;passion&quot;" label="idea">
-        <attvalues>
-          <attvalue for="0" value="1" />
-        </attvalues>
-      </node>
-      <node id="PassionIntent" label="tag" />
-      <node id="&quot;hospitality - welcome, openness&quot;" label="idea">
-        <attvalues>
-          <attvalue for="0" value="1" />
-        </attvalues>
-      </node>
-      <node id="Hospitality" label="tag" />
-      <node id="&quot;love&quot;" label="idea">
-        <attvalues>
-          <attvalue for="0" value="1" />
-        </attvalues>
-      </node>
-      <node id="&quot;flexibility&quot;" label="idea">
-        <attvalues>
-          <attvalue for="0" value="1" />
-        </attvalues>
-      </node>
-      <node id="Flexibility" label="tag" />
-      <node id="&quot;variety of skills / experience / connections&quot;" label="idea">
+      <node id="&quot;Very Broad Knowledge base to draw from&quot;" label="idea">
         <attvalues>
           <attvalue for="0" value="1" />
         </attvalues>
@@ -89,93 +39,36 @@
           <attvalue for="0" value="1" />
         </attvalues>
       </node>
-      <node id="BroadKnowledge" label="tag" />
-      <node id="&quot;our principles including #8&quot;" label="idea">
+      <node id="Talent" label="tag" />
+      <node id="&quot;Experince&quot;" label="idea">
         <attvalues>
           <attvalue for="0" value="1" />
         </attvalues>
       </node>
-      <node id="UUPrinciples" label="tag" />
-      <node id="&quot;mostly common belief in social justice&quot;" label="idea">
-        <attvalues>
-          <attvalue for="0" value="1" />
-        </attvalues>
-      </node>
-      <node id="SocialJustice" label="tag" />
-      <node id="&quot;well-intentioned people&quot;" label="idea">
-        <attvalues>
-          <attvalue for="0" value="1" />
-        </attvalues>
-      </node>
-      <node id="&quot;kind loving congregation that wants to help&quot;" label="idea">
-        <attvalues>
-          <attvalue for="0" value="1" />
-        </attvalues>
-      </node>
-      <node id="&quot;energy&quot;" label="idea">
-        <attvalues>
-          <attvalue for="0" value="1" />
-        </attvalues>
-      </node>
-      <node id="MISC" label="tag" />
-      <node id="&quot;community support&quot;" label="idea">
-        <attvalues>
-          <attvalue for="0" value="1" />
-        </attvalues>
-      </node>
-      <node id="CommunitySupport" label="tag" />
-      <node id="&quot;education&quot;" label="idea">
-        <attvalues>
-          <attvalue for="0" value="1" />
-        </attvalues>
-      </node>
-      <node id="EducationLinks" label="tag" />
-      <node id="&quot;social capital&quot;" label="idea">
-        <attvalues>
-          <attvalue for="0" value="1" />
-        </attvalues>
-      </node>
-      <node id="SocialCapital" label="tag" />
-      <node id="&quot;the grounds&quot;" label="idea">
-        <attvalues>
-          <attvalue for="0" value="1" />
-        </attvalues>
-      </node>
-      <node id="&quot;food prep / cooking&quot;" label="idea">
-        <attvalues>
-          <attvalue for="0" value="1" />
-        </attvalues>
-      </node>
-      <node id="FoodTalents" label="tag" />
       <node id="&quot;There is a lot of interconnected knowledge. We are all involved in multiple organizations and have cross ties.&quot;" label="idea">
         <attvalues>
           <attvalue for="0" value="1" />
         </attvalues>
       </node>
-      <node id="NetworkTies" label="tag" />
-      <node id="&quot;UU values call for service and action&quot;" label="idea">
-        <attvalues>
-          <attvalue for="0" value="1" />
-        </attvalues>
-      </node>
-      <node id="&quot;We have a very loving and giving community that appreciates supporting those in need&quot;" label="idea">
-        <attvalues>
-          <attvalue for="0" value="1" />
-        </attvalues>
-      </node>
+      <node id="People" label="tag" />
       <node id="&quot;we have a lot of smart and overachieving people in UUC.&quot;" label="idea">
         <attvalues>
           <attvalue for="0" value="1" />
         </attvalues>
       </node>
-      <node id="BigOpenMinds" label="tag" />
-      <node id="&quot;We are able to coordinate various ages in congregational efforts&quot;" label="idea">
+      <node id="&quot;The RE Program could be instrumental in connecting with public school&quot;" label="idea">
         <attvalues>
           <attvalue for="0" value="1" />
         </attvalues>
       </node>
-      <node id="AgeCoordination" label="tag" />
-      <node id="&quot;The willingness of our congregation to get involved&quot;" label="idea">
+      <node id="Youth" label="tag" />
+      <node id="&quot;our building spaces and grounds&quot;" label="idea">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </node>
+      <node id="Facilities" label="tag" />
+      <node id="&quot;the grounds&quot;" label="idea">
         <attvalues>
           <attvalue for="0" value="1" />
         </attvalues>
@@ -190,7 +83,30 @@
           <attvalue for="0" value="1" />
         </attvalues>
       </node>
-      <node id="&quot;Large number of financially stable and educated congregants&quot;" label="idea">
+      <node id="&quot;Great Facilities&quot;" label="idea">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </node>
+      <node id="&quot;hospitality - welcome, openness&quot;" label="idea">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </node>
+      <node id="Hospitality" label="tag" />
+      <node id="Values" label="tag" />
+      <node id="&quot;community support&quot;" label="idea">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </node>
+      <node id="&quot;money&quot;" label="idea">
+        <attvalues>
+          <attvalue for="0" value="2" />
+        </attvalues>
+      </node>
+      <node id="Money" label="tag" />
+      <node id="&quot;social capital&quot;" label="idea">
         <attvalues>
           <attvalue for="0" value="1" />
         </attvalues>
@@ -200,17 +116,68 @@
           <attvalue for="0" value="1" />
         </attvalues>
       </node>
+      <node id="&quot;Money (We are really wealthy)&quot;" label="idea">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </node>
+      <node id="&quot;Money&quot;" label="idea">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </node>
+      <node id="&quot;Our Abundance is our Money&quot;" label="idea">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </node>
+      <node id="&quot;Large number of financially stable and educated congregants&quot;" label="idea">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </node>
       <node id="&quot;large number, financially stable&quot;" label="idea">
         <attvalues>
           <attvalue for="0" value="1" />
         </attvalues>
       </node>
-      <node id="&quot;The RE Program could be instrumental in connecting with public school&quot;" label="idea">
+      <node id="&quot;passion&quot;" label="idea">
         <attvalues>
           <attvalue for="0" value="1" />
         </attvalues>
       </node>
-      <node id="&quot;Curiosity&quot;" label="idea">
+      <node id="Passion" label="tag" />
+      <node id="&quot;energy&quot;" label="idea">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </node>
+      <node id="&quot;Have Passion and Desire&quot;" label="idea">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </node>
+      <node id="&quot;Passion&quot;" label="idea">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </node>
+      <node id="&quot;people power&quot;" label="idea">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </node>
+      <node id="&quot;well-intentioned people&quot;" label="idea">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </node>
+      <node id="&quot;kind loving congregation that wants to help&quot;" label="idea">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </node>
+      <node id="&quot;The willingness of our congregation to get involved&quot;" label="idea">
         <attvalues>
           <attvalue for="0" value="1" />
         </attvalues>
@@ -220,7 +187,69 @@
           <attvalue for="0" value="1" />
         </attvalues>
       </node>
-      <node id="&quot;Education&quot;" label="idea">
+      <node id="&quot;community leadership&quot;" label="idea">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </node>
+      <node id="&quot;Experience with this community&quot;" label="idea">
+        <attvalues>
+          <attvalue for="0" value="2" />
+        </attvalues>
+      </node>
+      <node id="&quot;Commited Strong Volunteers&quot;" label="idea">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </node>
+      <node id="&quot;Strong exisiting groups in the UUC&quot;" label="idea">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </node>
+      <node id="&quot;Leadership&quot;" label="idea">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </node>
+      <node id="&quot;Sense of Community&quot;" label="idea">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </node>
+      <node id="&quot;Talents&quot;" label="idea">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </node>
+      <node id="&quot;shared skills&quot;" label="idea">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </node>
+      <node id="&quot;variety of skills / experience / connections&quot;" label="idea">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </node>
+      <node id="&quot;food prep / cooking&quot;" label="idea">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </node>
+      <node id="&quot;Time&quot;" label="idea">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </node>
+      <node id="Time" label="tag" />
+      <node id="&quot;Strong YA Group&quot;" label="idea">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </node>
+      <node id="UUYA" label="tag" />
+      <node id="&quot;We are able to coordinate various ages in congregational efforts&quot;" label="idea">
         <attvalues>
           <attvalue for="0" value="1" />
         </attvalues>
@@ -230,60 +259,63 @@
           <attvalue for="0" value="1" />
         </attvalues>
       </node>
-      <node id="&quot;Money (We are really wealthy)&quot;" label="idea">
-        <attvalues>
-          <attvalue for="0" value="1" />
-        </attvalues>
-      </node>
-      <node id="&quot;Educational levels of experience&quot;" label="idea">
-        <attvalues>
-          <attvalue for="0" value="1" />
-        </attvalues>
-      </node>
-      <node id="&quot;community leadership&quot;" label="idea">
-        <attvalues>
-          <attvalue for="0" value="1" />
-        </attvalues>
-      </node>
-      <node id="Leadership" label="tag" />
-      <node id="&quot;Experience with this community&quot;" label="idea">
-        <attvalues>
-          <attvalue for="0" value="2" />
-        </attvalues>
-      </node>
-      <node id="&quot;Committed Strong Volunteers&quot;" label="idea">
-        <attvalues>
-          <attvalue for="0" value="1" />
-        </attvalues>
-      </node>
-      <node id="CommittedVolunteers" label="tag" />
-      <node id="&quot;Excellent Children&quot;" label="idea">
-        <attvalues>
-          <attvalue for="0" value="1" />
-        </attvalues>
-      </node>
-      <node id="&quot;In Ethical religious practice we are learning. That means we are not traditional Christianity&quot;" label="idea">
-        <attvalues>
-          <attvalue for="0" value="1" />
-        </attvalues>
-      </node>
-      <node id="&quot;Good intentions&quot;" label="idea">
-        <attvalues>
-          <attvalue for="0" value="1" />
-        </attvalues>
-      </node>
       <node id="&quot;Strong UUYA Group!&quot;" label="idea">
         <attvalues>
           <attvalue for="0" value="1" />
         </attvalues>
       </node>
-      <node id="&quot;Strong existing groups in the UUC&quot;" label="idea">
+      <node id="&quot;We have a very loving and giving community that appreciates supporting those in need&quot;" label="idea">
         <attvalues>
           <attvalue for="0" value="1" />
         </attvalues>
       </node>
-      <node id="CommunitySense" label="tag" />
-      <node id="&quot;Time&quot;" label="idea">
+      <node id="Value" label="tag" />
+      <node id="&quot;In Ethical religious practice we are learning. That means we are not traditional christianity&quot;" label="idea">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </node>
+      <node id="&quot;congregation's compassion and generosity&quot;" label="idea">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </node>
+      <node id="&quot;we don't have hidden agenda to save souls, can focus on needs/perspectives expressed&quot;" label="idea">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </node>
+      <node id="&quot;love&quot;" label="idea">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </node>
+      <node id="&quot;flexibility&quot;" label="idea">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </node>
+      <node id="&quot;our principles including #8&quot;" label="idea">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </node>
+      <node id="&quot;mostly common belief in social justice&quot;" label="idea">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </node>
+      <node id="&quot;UU values call for service and action&quot;" label="idea">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </node>
+      <node id="&quot;Curisoity&quot;" label="idea">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </node>
+      <node id="&quot;Good intentiions&quot;" label="idea">
         <attvalues>
           <attvalue for="0" value="1" />
         </attvalues>
@@ -293,23 +325,7 @@
           <attvalue for="0" value="1" />
         </attvalues>
       </node>
-      <node id="&quot;Big Minds&quot;" label="idea">
-        <attvalues>
-          <attvalue for="0" value="1" />
-        </attvalues>
-      </node>
       <node id="&quot;Big Hearts&quot;" label="idea">
-        <attvalues>
-          <attvalue for="0" value="1" />
-        </attvalues>
-      </node>
-      <node id="BigOpenHearts" label="tag" />
-      <node id="&quot;Leadership&quot;" label="idea">
-        <attvalues>
-          <attvalue for="0" value="1" />
-        </attvalues>
-      </node>
-      <node id="&quot;Great Facilities&quot;" label="idea">
         <attvalues>
           <attvalue for="0" value="1" />
         </attvalues>
@@ -329,127 +345,116 @@
           <attvalue for="0" value="1" />
         </attvalues>
       </node>
-      <node id="&quot;Have Passion and Desire&quot;" label="idea">
-        <attvalues>
-          <attvalue for="0" value="1" />
-        </attvalues>
-      </node>
-      <node id="&quot;Experience&quot;" label="idea">
-        <attvalues>
-          <attvalue for="0" value="1" />
-        </attvalues>
-      </node>
-      <node id="&quot;Sense of Community&quot;" label="idea">
-        <attvalues>
-          <attvalue for="0" value="1" />
-        </attvalues>
-      </node>
       <node id="&quot;Honest broker&quot;" label="idea">
         <attvalues>
           <attvalue for="0" value="1" />
         </attvalues>
       </node>
-      <node id="&quot;Money&quot;" label="idea">
+      <node id="&quot;desire to learn from others re: culture and feelings&quot;" label="idea">
         <attvalues>
           <attvalue for="0" value="1" />
         </attvalues>
       </node>
-      <node id="&quot;Brains&quot;" label="idea">
+      <node id="&quot;Big Minds&quot;" label="idea">
         <attvalues>
           <attvalue for="0" value="1" />
         </attvalues>
       </node>
-      <node id="&quot;Passion&quot;" label="idea">
-        <attvalues>
-          <attvalue for="0" value="1" />
-        </attvalues>
-      </node>
-      <node id="&quot;Very Broad Knowledge base to draw from&quot;" label="idea">
-        <attvalues>
-          <attvalue for="0" value="1" />
-        </attvalues>
-      </node>
-      <node id="&quot;Our Abundance is our Money&quot;" label="idea">
-        <attvalues>
-          <attvalue for="0" value="1" />
-        </attvalues>
-      </node>
-      <node id="&quot;Talents&quot;" label="idea">
+      <node id="&quot;Excellent Children&quot;" label="idea">
         <attvalues>
           <attvalue for="0" value="1" />
         </attvalues>
       </node>
     </nodes>
     <edges>
-      <edge source="&quot;our building spaces and grounds&quot;" target="Facilities" id="0" />
-      <edge source="Facilities" target="&quot;the grounds&quot;" id="1" />
-      <edge source="Facilities" target="&quot;Our facilities&quot;" id="2" />
-      <edge source="Facilities" target="&quot;Great Facilities&quot;" id="3" />
-      <edge source="&quot;people power&quot;" target="PeoplePower" id="4" />
-      <edge source="PeoplePower" target="&quot;Lots of good hard working individuals&quot;" id="5" />
-      <edge source="&quot;money&quot;" target="FinancialStrength" id="6" />
-      <edge source="FinancialStrength" target="&quot;Large number of financially stable and educated congregants&quot;" id="7" />
-      <edge source="FinancialStrength" target="&quot;We can raise some good money when we agree there is a worthy cause&quot;" id="8" />
-      <edge source="FinancialStrength" target="&quot;large number, financially stable&quot;" id="9" />
-      <edge source="FinancialStrength" target="&quot;Money (We are really wealthy)&quot;" id="10" />
-      <edge source="FinancialStrength" target="&quot;Money&quot;" id="11" />
-      <edge source="FinancialStrength" target="&quot;Our Abundance is our Money&quot;" id="12" />
-      <edge source="&quot;shared skills&quot;" target="SkillsExperience" id="13" />
-      <edge source="SkillsExperience" target="&quot;variety of skills / experience / connections&quot;" id="14" />
-      <edge source="SkillsExperience" target="&quot;Experience&quot;" id="15" />
-      <edge source="SkillsExperience" target="&quot;Talents&quot;" id="16" />
-      <edge source="&quot;congregation's compassion and generosity&quot;" target="CompassionLove" id="17" />
-      <edge source="CompassionLove" target="&quot;love&quot;" id="18" />
-      <edge source="CompassionLove" target="&quot;kind loving congregation that wants to help&quot;" id="19" />
-      <edge source="CompassionLove" target="&quot;We have a very loving and giving community that appreciates supporting those in need&quot;" id="20" />
-      <edge source="CompassionLove" target="&quot;Caring&quot;" id="21" />
-      <edge source="&quot;Strong YA Group&quot;" target="StrongYAGroups" id="22" />
-      <edge source="StrongYAGroups" target="&quot;Young Adult Leadership&quot;" id="23" />
-      <edge source="StrongYAGroups" target="&quot;Strong UUYA Group!&quot;" id="24" />
-      <edge source="&quot;we don't have hidden agenda to save souls, can focus on needs/perspectives expressed&quot;" target="EthicalPractice" id="25" />
-      <edge source="EthicalPractice" target="&quot;In Ethical religious practice we are learning. That means we are not traditional Christianity&quot;" id="26" />
-      <edge source="&quot;desire to learn from others re: culture and feelings&quot;" target="LearnCuriosity" id="27" />
-      <edge source="LearnCuriosity" target="&quot;Curiosity&quot;" id="28" />
-      <edge source="&quot;passion&quot;" target="PassionIntent" id="29" />
-      <edge source="PassionIntent" target="&quot;well-intentioned people&quot;" id="30" />
-      <edge source="PassionIntent" target="&quot;Good intentions&quot;" id="31" />
-      <edge source="PassionIntent" target="&quot;Have Passion and Desire&quot;" id="32" />
-      <edge source="PassionIntent" target="&quot;Passion&quot;" id="33" />
-      <edge source="&quot;hospitality - welcome, openness&quot;" target="Hospitality" id="34" />
-      <edge source="&quot;flexibility&quot;" target="Flexibility" id="35" />
-      <edge source="&quot;wide knowledge base and range of experience&quot;" target="BroadKnowledge" id="36" />
-      <edge source="BroadKnowledge" target="&quot;Very Broad Knowledge base to draw from&quot;" id="37" />
-      <edge source="&quot;our principles including #8&quot;" target="UUPrinciples" id="38" />
-      <edge source="UUPrinciples" target="&quot;UU values call for service and action&quot;" id="39" />
-      <edge source="&quot;mostly common belief in social justice&quot;" target="SocialJustice" id="40" />
-      <edge source="SocialJustice" target="&quot;Social Justice&quot;" id="41" />
-      <edge source="&quot;energy&quot;" target="MISC" id="42" />
-      <edge source="MISC" target="&quot;The willingness of our congregation to get involved&quot;" id="43" />
-      <edge source="MISC" target="&quot;Great location&quot;" id="44" />
-      <edge source="MISC" target="&quot;Experience with this community&quot;" id="45" />
-      <edge source="MISC" target="&quot;Excellent Children&quot;" id="46" />
-      <edge source="MISC" target="&quot;Time&quot;" id="47" />
-      <edge source="MISC" target="&quot;Honest broker&quot;" id="48" />
-      <edge source="&quot;community support&quot;" target="CommunitySupport" id="49" />
-      <edge source="&quot;education&quot;" target="EducationLinks" id="50" />
-      <edge source="EducationLinks" target="&quot;The RE Program could be instrumental in connecting with public school&quot;" id="51" />
-      <edge source="EducationLinks" target="&quot;Education&quot;" id="52" />
-      <edge source="EducationLinks" target="&quot;Educational levels of experience&quot;" id="53" />
-      <edge source="&quot;social capital&quot;" target="SocialCapital" id="54" />
-      <edge source="&quot;food prep / cooking&quot;" target="FoodTalents" id="55" />
-      <edge source="&quot;There is a lot of interconnected knowledge. We are all involved in multiple organizations and have cross ties.&quot;" target="NetworkTies" id="56" />
-      <edge source="&quot;we have a lot of smart and overachieving people in UUC.&quot;" target="BigOpenMinds" id="57" />
-      <edge source="BigOpenMinds" target="&quot;Big Minds&quot;" id="58" />
-      <edge source="BigOpenMinds" target="&quot;Open Minds&quot;" id="59" />
-      <edge source="BigOpenMinds" target="&quot;Brains&quot;" id="60" />
-      <edge source="&quot;We are able to coordinate various ages in congregational efforts&quot;" target="AgeCoordination" id="61" />
-      <edge source="&quot;community leadership&quot;" target="Leadership" id="62" />
-      <edge source="Leadership" target="&quot;Leadership&quot;" id="63" />
-      <edge source="&quot;Committed Strong Volunteers&quot;" target="CommittedVolunteers" id="64" />
-      <edge source="&quot;Strong existing groups in the UUC&quot;" target="CommunitySense" id="65" />
-      <edge source="CommunitySense" target="&quot;Sense of Community&quot;" id="66" />
-      <edge source="&quot;Big Hearts&quot;" target="BigOpenHearts" id="67" />
-      <edge source="BigOpenHearts" target="&quot;Open Hearts&quot;" id="68" />
+      <edge source="&quot;education&quot;" target="Education" id="0" />
+      <edge source="Education" target="&quot;Education&quot;" id="1" />
+      <edge source="Education" target="&quot;Educational levels of experience&quot;" id="2" />
+      <edge source="Education" target="&quot;Brains&quot;" id="3" />
+      <edge source="Education" target="&quot;Very Broad Knowledge base to draw from&quot;" id="4" />
+      <edge source="Education" target="&quot;wide knowledge base and range of experience&quot;" id="5" />
+      <edge source="Education" target="&quot;Experince&quot;" id="6" />
+      <edge source="Education" target="&quot;There is a lot of interconnected knowledge. We are all involved in multiple organizations and have cross ties.&quot;" id="7" />
+      <edge source="Education" target="&quot;we have a lot of smart and overachieving people in UUC.&quot;" id="8" />
+      <edge source="Education" target="&quot;The RE Program could be instrumental in connecting with public school&quot;" id="9" />
+      <edge source="Education" target="&quot;Large number of financially stable and educated congregants&quot;" id="10" />
+      <edge source="Education" target="&quot;desire to learn from others re: culture and feelings&quot;" id="11" />
+      <edge source="Education" target="&quot;Big Minds&quot;" id="12" />
+      <edge source="&quot;wide knowledge base and range of experience&quot;" target="Talent" id="13" />
+      <edge source="Talent" target="&quot;Experince&quot;" id="14" />
+      <edge source="Talent" target="&quot;There is a lot of interconnected knowledge. We are all involved in multiple organizations and have cross ties.&quot;" id="15" />
+      <edge source="Talent" target="&quot;we have a lot of smart and overachieving people in UUC.&quot;" id="16" />
+      <edge source="Talent" target="&quot;Talents&quot;" id="17" />
+      <edge source="Talent" target="&quot;shared skills&quot;" id="18" />
+      <edge source="Talent" target="&quot;variety of skills / experience / connections&quot;" id="19" />
+      <edge source="Talent" target="&quot;food prep / cooking&quot;" id="20" />
+      <edge source="&quot;There is a lot of interconnected knowledge. We are all involved in multiple organizations and have cross ties.&quot;" target="People" id="21" />
+      <edge source="People" target="&quot;we have a lot of smart and overachieving people in UUC.&quot;" id="22" />
+      <edge source="People" target="&quot;community support&quot;" id="23" />
+      <edge source="People" target="&quot;large number, financially stable&quot;" id="24" />
+      <edge source="People" target="&quot;people power&quot;" id="25" />
+      <edge source="People" target="&quot;well-intentioned people&quot;" id="26" />
+      <edge source="People" target="&quot;kind loving congregation that wants to help&quot;" id="27" />
+      <edge source="People" target="&quot;The willingness of our congregation to get involved&quot;" id="28" />
+      <edge source="People" target="&quot;Lots of good hard working individuals&quot;" id="29" />
+      <edge source="People" target="&quot;community leadership&quot;" id="30" />
+      <edge source="People" target="&quot;Experience with this community&quot;" id="31" />
+      <edge source="People" target="&quot;Commited Strong Volunteers&quot;" id="32" />
+      <edge source="People" target="&quot;Strong exisiting groups in the UUC&quot;" id="33" />
+      <edge source="People" target="&quot;Leadership&quot;" id="34" />
+      <edge source="People" target="&quot;Sense of Community&quot;" id="35" />
+      <edge source="People" target="&quot;shared skills&quot;" id="36" />
+      <edge source="People" target="&quot;variety of skills / experience / connections&quot;" id="37" />
+      <edge source="People" target="&quot;food prep / cooking&quot;" id="38" />
+      <edge source="People" target="&quot;We have a very loving and giving community that appreciates supporting those in need&quot;" id="39" />
+      <edge source="&quot;The RE Program could be instrumental in connecting with public school&quot;" target="Youth" id="40" />
+      <edge source="Youth" target="&quot;Excellent Children&quot;" id="41" />
+      <edge source="&quot;our building spaces and grounds&quot;" target="Facilities" id="42" />
+      <edge source="Facilities" target="&quot;the grounds&quot;" id="43" />
+      <edge source="Facilities" target="&quot;Our facilities&quot;" id="44" />
+      <edge source="Facilities" target="&quot;Great location&quot;" id="45" />
+      <edge source="Facilities" target="&quot;Great Facilities&quot;" id="46" />
+      <edge source="&quot;hospitality - welcome, openness&quot;" target="Hospitality" id="47" />
+      <edge source="&quot;hospitality - welcome, openness&quot;" target="Values" id="48" />
+      <edge source="Hospitality" target="&quot;community support&quot;" id="49" />
+      <edge source="Hospitality" target="&quot;We have a very loving and giving community that appreciates supporting those in need&quot;" id="50" />
+      <edge source="Values" target="&quot;community support&quot;" id="51" />
+      <edge source="Values" target="&quot;In Ethical religious practice we are learning. That means we are not traditional christianity&quot;" id="52" />
+      <edge source="Values" target="&quot;congregation's compassion and generosity&quot;" id="53" />
+      <edge source="Values" target="&quot;we don't have hidden agenda to save souls, can focus on needs/perspectives expressed&quot;" id="54" />
+      <edge source="Values" target="&quot;love&quot;" id="55" />
+      <edge source="Values" target="&quot;flexibility&quot;" id="56" />
+      <edge source="Values" target="&quot;our principles including #8&quot;" id="57" />
+      <edge source="Values" target="&quot;mostly common belief in social justice&quot;" id="58" />
+      <edge source="Values" target="&quot;UU values call for service and action&quot;" id="59" />
+      <edge source="Values" target="&quot;Curisoity&quot;" id="60" />
+      <edge source="Values" target="&quot;Good intentiions&quot;" id="61" />
+      <edge source="Values" target="&quot;Caring&quot;" id="62" />
+      <edge source="Values" target="&quot;Big Hearts&quot;" id="63" />
+      <edge source="Values" target="&quot;Social Justice&quot;" id="64" />
+      <edge source="Values" target="&quot;Open Minds&quot;" id="65" />
+      <edge source="Values" target="&quot;Open Hearts&quot;" id="66" />
+      <edge source="Values" target="&quot;Honest broker&quot;" id="67" />
+      <edge source="Values" target="&quot;desire to learn from others re: culture and feelings&quot;" id="68" />
+      <edge source="Values" target="&quot;Big Minds&quot;" id="69" />
+      <edge source="&quot;money&quot;" target="Money" id="70" />
+      <edge source="Money" target="&quot;social capital&quot;" id="71" />
+      <edge source="Money" target="&quot;We can raise some good money when we agree there is a worthy cause&quot;" id="72" />
+      <edge source="Money" target="&quot;Money (We are really wealthy)&quot;" id="73" />
+      <edge source="Money" target="&quot;Money&quot;" id="74" />
+      <edge source="Money" target="&quot;Our Abundance is our Money&quot;" id="75" />
+      <edge source="Money" target="&quot;Large number of financially stable and educated congregants&quot;" id="76" />
+      <edge source="Money" target="&quot;large number, financially stable&quot;" id="77" />
+      <edge source="&quot;passion&quot;" target="Passion" id="78" />
+      <edge source="Passion" target="&quot;energy&quot;" id="79" />
+      <edge source="Passion" target="&quot;Have Passion and Desire&quot;" id="80" />
+      <edge source="Passion" target="&quot;Passion&quot;" id="81" />
+      <edge source="&quot;Time&quot;" target="Time" id="82" />
+      <edge source="&quot;Strong YA Group&quot;" target="UUYA" id="83" />
+      <edge source="UUYA" target="&quot;We are able to coordinate various ages in congregational efforts&quot;" id="84" />
+      <edge source="UUYA" target="&quot;Young Adult Leadership&quot;" id="85" />
+      <edge source="UUYA" target="&quot;Strong UUYA Group!&quot;" id="86" />
+      <edge source="&quot;We have a very loving and giving community that appreciates supporting those in need&quot;" target="Value" id="87" />
     </edges>
   </graph>
 </gexf>

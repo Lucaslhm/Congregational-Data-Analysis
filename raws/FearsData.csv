@@ -1,66 +1,66 @@
 "Ideas","Source/date","@TAG"
-"longevity","MD 10/23","Longevity"
-"time","MD 10/23","TimeMgmt"
-"full force action","MD 10/23","Commitment"
-"cruel optimism - concentrate on small tasks but never changing the system","circle 10/15","SysChange"
-"how to gauge success","circle 10/15","MeasureSuccess"
-"project not designed from completion for community","circle 10/15","ProjDesign"
-"safety (physical)","circle 10/15","Safety"
-"otherness","circle 10/15","Inclusivity"
-"boredom / lack of follow through","circle 10/15","Commitment"
-"safety for all involved","circle 10/15","Safety"
-"time commitments","circle 10/15","TimeMgmt"
-"well-intentioned people getting it wrong","circle 10/15","KnowledgeUnderstanding"
-"what are the needs? how do we find out?","circle 10/15","KnowledgeUnderstanding"
-"coming to consensus about what needs to be done","circle 10/15","Consensus"
-"unwillingness to transport people","circle 10/15","ResourceTransport"
-"replicating or competing with services that already exist","circle 10/15","Overextend"
-"alienating or offending","circle 10/15","Alienation"
-"do people have time and resources to add more?","circle 10/15","TimeMgmt,ResourceTransport"
-"already involved in so many other projects","circle 10/15","Overextend"
-"ego - self-serving","circle 10/15","EgoIssues"
-"overcommitment!","circle 10/15","Commitment"
-"insufficient time / strength / energy","circle 10/15","TimeMgmt"
-"arrogance","circle 10/15","EgoIssues"
-"privilege","circle 10/15","Privilege"
-"isolation","circle 10/15","Isolation"
-"language insufficiency","circle 10/15","CommLanguage"
-"difficulty of involving numerous people","circle 10/16","Collaboration"
-"Difficulty of involving numerous people","circle 10/16","Collaboration"
-"A fear of doing new things and a history of not giving new projects enough support","circle 10/16","GoalsAchieve"
-"no one takes full leadership and so we only start something, but not finish it","circle 10/16","Leadership"
-"we start fighting over best ways to achieve same goal... and never accomplish the goal. enthusiasm changes to frustration.","circle 10/16","GoalsAchieve,Consensus"
-"We may already have more ministry type activities than workers.","circle 10/16","WorkerAvail"
-"introverted and self conscious congregants (including me)","circle 10/16","Introversion"
-"Our values are so widespread that I'm concerned it will be hard to get the congregation to rally around any one cause or group","circle 10/16","ValueDiverge"
-"Our values are so widespread that I'm concerned it will be hard to get the congregation to rally around any one cause or group","circle 10/16","ValueDiverge"
-"We don't want to prescribe what is needed for any one group, we need to connect with them and ask","circle 10/16","KnowledgeUnderstanding"
-"We rely a lot on a few people","circle 10/16","WorkerAvail"
-"Will we dilute our reach so far that we aren't able to contribute in meaningful ways?","circle 10/16","Overextend"
-"if there is not a direct community need we are called to act on, do we need to identify and build more outreach?","circle 10/16","KnowledgeUnderstanding"
-"I am not quite clear what the goal of this activity is.","circle 10/16","MISC"
-"Time Resources","circle 10/22","TimeMgmt"
-"Can we get a group in common agreement","circle 10/22","Consensus"
-"Time - some of us are busy","circle 10/22","TimeMgmt"
-"few do too much in congregation","circle 10/22","WorkerAvail"
-"Anti-LGBTQ+ Sentiments","circle 10/22","Alienation"
-"Sustainability","circle 10/22","Longevity"
-"When people who come aren't middle/upper class we aren't welcoming","circle 10/22","Inclusivity"
-"Time","circle 10/22","TimeMgmt"
-"Energy","circle 10/22","TimeMgmt"
-"We're already too busy","circle 10/22","Overextend"
-"Our hurdle is what we separately are engaged with and responsible for","circle 10/22","TimeMgmt,Commitment"
-"We are full of different personalities","circle 10/22","ValueDiverge"
-"Don't start big","circle 10/22","GoalsAchieve"
-"Only a few folks do all the work","circle 10/22","WorkerAvail"
-"ANOTHER FLIPPING COMMITTEE!!!!!","circle 10/22","Overextend"
-"Lack of Time","circle 10/22","TimeMgmt"
-"a few congregants do too much and others don't understand","circle 10/22","WorkerAvail,KnowledgeUnderstanding"
-"We talk a lot but do a little","circle 10/22","Commitment"
-"many of us are "Sunday Only" participants","circle 10/22","Commitment"
-"Effective coordination between sub groups","circle 10/22","Collaboration"
-"Sustained Leadership","circle 10/22","Leadership"
-"Risk of direct involvement","circle 10/22","Safety"
-"politics","circle 10/22","EgoIssues"
-"We can't make a difference","circle 10/22","EgoIssues"
-"Time","circle 10/22","TimeMgmt"
+We are full of different personalities,circle 10/22,Argumentitive
+politics,circle 10/22,Argumentitive
+Our values are so widespread that I'm concerned it will be hard to get the congregation to rally around any one cause or group,circle 10/16,"Argumentitive,Inclusivity"
+Our values are so widespread that I'm concerned it will be hard to get the congregation to rally around any one cause or group,circle 10/16,"Argumentitive,Inclusivity"
+Can we get a group in common agreement,circle 10/22,"Argumentitive,Inclusivity"
+We talk a lot but do a little,circle 10/22,"ChangeAverse,Commitment"
+cruel optimism - concentrate on small tasks but never changing the system,circle 10/15,ChangeAverse
+A fear of doing new things and a history of not giving new projects enough support,circle 10/16,ChangeAverse
+Don't start big,circle 10/22,ChangeAverse
+Will we dilute our reach so far that we aren't able to contribute in meaningful ways?,circle 10/16,"Commitment,Resource"
+Sustainability,circle 10/22,"Commitment,Resource"
+Our hurdle is what we separtely are engaged with and responsible for,circle 10/22,"Commitment,Resource"
+ANOTHER FLIPPING COMMITTEE!!!!!,circle 10/22,"Commitment,Resource,Time"
+We may already have more ministry type activities than workers.,circle 10/16,"Commitment,Time,Resource"
+full force action,MD 10/23,Commitment
+boredom / lack of follow through,circle 10/15,Commitment
+time commitments,circle 10/15,Commitment
+longevity,MD 10/23,"Commitment,Time"
+already involved in so many other projects,circle 10/15,"Commitment,Time"
+overcommitment!,circle 10/15,"Commitment,Time"
+insufficient time / strength / energy,circle 10/15,"Commitment,Time"
+"many of us are ""Sunday Only"" partipants",circle 10/22,"Commitment,Time"
+ego - self-serving,circle 10/15,Ego
+arrogance,circle 10/15,Ego
+privilege,circle 10/15,"Ego,Inclusivity"
+"We don't want to prescribe what is needed for any one group, we need to connect with them and ask",circle 10/16,"Ego,Inclusivity"
+how to gauge success,circle 10/15,Ignorance
+project not designed from completion for community,circle 10/15,Ignorance
+well-intentioned people getting it wrong,circle 10/15,Ignorance
+what are the needs? how do we find out?,circle 10/15,Ignorance
+replicating or competing with services that already exist,circle 10/15,"Ignorance,Creativity"
+otherness,circle 10/15,Inclusivity
+alienating or offending,circle 10/15,Inclusivity
+isolation,circle 10/15,Inclusivity
+Anti-LGBTQ+ Sentiments,circle 10/22,Inclusivity
+When people who come aren't middle/upper class we aren't welcoming,circle 10/22,Inclusivity
+difficulty of involving numerous people,circle 10/16,"Inclusivity,Leadership"
+Difficulty of involving numerous people,circle 10/16,"Inclusivity,Leadership"
+Effective coordination between sub groups,circle 10/22,Leadership
+Sustained Leadership,circle 10/22,Leadership
+coming to consensus about what needs to be done,circle 10/15,"Leadership,Argumentitive"
+we start fighting over best ways to achieve same goal... and never accomplish the goal. enthusiasm changes to frustration.,circle 10/16,"Leadership,Argumentitive"
+"no one takes full leadership and so we only start something, but not finish it",circle 10/16,"Leadership,Commitment"
+unwillingness to transport people,circle 10/15,MISC
+language insufficiency,circle 10/15,MISC
+introverted and self conscious congregants (including me),circle 10/16,MISC
+"if there is not a direct community need we are called to act on, do we need to identify and build more outreach?",circle 10/16,MISC
+I am not quite clear what the goal of this activity is.,circle 10/16,MISC
+We rely a lot on a few people,circle 10/16,Resource
+Energy,circle 10/22,Resource
+Only a few folks do all the work,circle 10/22,Resource
+a few congregants do too much and others don't understand,circle 10/22,"Resource,Commitment,Ignorance"
+We can't make a difference,circle 10/22,"Resources,Commitment"
+safety (physical),circle 10/15,Safety
+safety for all involved,circle 10/15,Safety
+Risk of direct involvement,circle 10/22,Safety
+time,MD 10/23,Time
+Time - some of us are busy,circle 10/22,Time
+Time,circle 10/22,Time
+We're already too busy,circle 10/22,Time
+Lack of Time,circle 10/22,Time
+Time,circle 10/22,Time
+do people have time and resources to add more?,circle 10/15,"Time,Commitment"
+few do too much in congregation,circle 10/22,"Time,Commitment,Resource"
+Time Resources,circle 10/22,"Time,Resource"
