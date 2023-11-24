@@ -2,6 +2,10 @@
 
 ![Uptime Robot status](https://img.shields.io/uptimerobot/status/m795748817-3c82352d5904190bf9e5ed4e?link=https%3A%2F%2Fwww.uucnrvministrydiscernment.org%2F) ![Uptime Robot ratio (7 days)](https://img.shields.io/uptimerobot/ratio/7/m795748817-3c82352d5904190bf9e5ed4e)
 
+![Static Badge](https://img.shields.io/badge/Version-1.5.3-blue) ![GitHub last commit (branch)](https://img.shields.io/github/last-commit/Lucaslhm/Congregational-Data-Analysis/main)
+
+
+
 ## Overview
 This repository contains the code and data for the Congregational Data Analysis and Visualization Project by the Unitarian Universalist Congregation of New River Valley (UUC NRV). The project focuses on visualizing qualitative data gathered from listening circles to aid in the congregation's decision-making process.
 
